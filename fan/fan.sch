@@ -36,19 +36,6 @@ F 3 "" H 1450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D2
-U 1 1 5E4F4DE9
-P 1750 5000
-F 0 "D2" V 1796 5080 50  0000 L CNN
-F 1 "DIODE" V 1705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 1750 5000 50  0001 C CNN
-F 3 "~" H 1750 5000 50  0001 C CNN
-F 4 "Y" H 1750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 1750 5000 50  0001 L CNN "Spice_Primitive"
-	1    1750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW4
 U 1 1 5E4F96F9
 P 1450 6150
@@ -60,19 +47,6 @@ F 3 "" H 1450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D3
-U 1 1 5E4F9701
-P 1750 5650
-F 0 "D3" V 1796 5730 50  0000 L CNN
-F 1 "DIODE" V 1705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 1750 5650 50  0001 C CNN
-F 3 "~" H 1750 5650 50  0001 C CNN
-F 4 "Y" H 1750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 1750 5650 50  0001 L CNN "Spice_Primitive"
-	1    1750 5650
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW3
 U 1 1 5E4F9707
 P 1450 5500
@@ -82,19 +56,6 @@ F 2 "kbd:CherryMX_Hotswap" H 1450 5500 50  0001 C CNN
 F 3 "" H 1450 5500 50  0000 C CNN
 	1    1450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D4
-U 1 1 5E4F970F
-P 1750 6300
-F 0 "D4" V 1796 6380 50  0000 L CNN
-F 1 "DIODE" V 1705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 1750 6300 50  0001 C CNN
-F 3 "~" H 1750 6300 50  0001 C CNN
-F 4 "Y" H 1750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 1750 6300 50  0001 L CNN "Spice_Primitive"
-	1    1750 6300
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW6
@@ -156,19 +117,6 @@ F 3 "" H 2450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D8
-U 1 1 5E5189F7
-P 2750 5000
-F 0 "D8" V 2796 5080 50  0000 L CNN
-F 1 "DIODE" V 2705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 2750 5000 50  0001 C CNN
-F 3 "~" H 2750 5000 50  0001 C CNN
-F 4 "Y" H 2750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 2750 5000 50  0001 L CNN "Spice_Primitive"
-	1    2750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW10
 U 1 1 5E5189FD
 P 2450 6150
@@ -180,19 +128,6 @@ F 3 "" H 2450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D9
-U 1 1 5E518A05
-P 2750 5650
-F 0 "D9" V 2796 5730 50  0000 L CNN
-F 1 "DIODE" V 2705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 2750 5650 50  0001 C CNN
-F 3 "~" H 2750 5650 50  0001 C CNN
-F 4 "Y" H 2750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 2750 5650 50  0001 L CNN "Spice_Primitive"
-	1    2750 5650
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW9
 U 1 1 5E518A0B
 P 2450 5500
@@ -202,19 +137,6 @@ F 2 "kbd:CherryMX_Hotswap" H 2450 5500 50  0001 C CNN
 F 3 "" H 2450 5500 50  0000 C CNN
 	1    2450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D10
-U 1 1 5E518A13
-P 2750 6300
-F 0 "D10" V 2796 6380 50  0000 L CNN
-F 1 "DIODE" V 2705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 2750 6300 50  0001 C CNN
-F 3 "~" H 2750 6300 50  0001 C CNN
-F 4 "Y" H 2750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 2750 6300 50  0001 L CNN "Spice_Primitive"
-	1    2750 6300
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW12
@@ -265,19 +187,6 @@ F 3 "" H 3450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D14
-U 1 1 5E5295FB
-P 3750 5000
-F 0 "D14" V 3796 5080 50  0000 L CNN
-F 1 "DIODE" V 3705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 3750 5000 50  0001 C CNN
-F 3 "~" H 3750 5000 50  0001 C CNN
-F 4 "Y" H 3750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 3750 5000 50  0001 L CNN "Spice_Primitive"
-	1    3750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW16
 U 1 1 5E529601
 P 3450 6150
@@ -289,19 +198,6 @@ F 3 "" H 3450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D15
-U 1 1 5E529609
-P 3750 5650
-F 0 "D15" V 3796 5730 50  0000 L CNN
-F 1 "DIODE" V 3705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 3750 5650 50  0001 C CNN
-F 3 "~" H 3750 5650 50  0001 C CNN
-F 4 "Y" H 3750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 3750 5650 50  0001 L CNN "Spice_Primitive"
-	1    3750 5650
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW15
 U 1 1 5E52960F
 P 3450 5500
@@ -311,19 +207,6 @@ F 2 "kbd:CherryMX_Hotswap" H 3450 5500 50  0001 C CNN
 F 3 "" H 3450 5500 50  0000 C CNN
 	1    3450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D16
-U 1 1 5E529617
-P 3750 6300
-F 0 "D16" V 3796 6380 50  0000 L CNN
-F 1 "DIODE" V 3705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 3750 6300 50  0001 C CNN
-F 3 "~" H 3750 6300 50  0001 C CNN
-F 4 "Y" H 3750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 3750 6300 50  0001 L CNN "Spice_Primitive"
-	1    3750 6300
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW18
@@ -374,19 +257,6 @@ F 3 "" H 4450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D20
-U 1 1 5E52967B
-P 4750 5000
-F 0 "D20" V 4796 5080 50  0000 L CNN
-F 1 "DIODE" V 4705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 4750 5000 50  0001 C CNN
-F 3 "~" H 4750 5000 50  0001 C CNN
-F 4 "Y" H 4750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 4750 5000 50  0001 L CNN "Spice_Primitive"
-	1    4750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW22
 U 1 1 5E529681
 P 4450 6150
@@ -398,19 +268,6 @@ F 3 "" H 4450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D21
-U 1 1 5E529689
-P 4750 5650
-F 0 "D21" V 4796 5730 50  0000 L CNN
-F 1 "DIODE" V 4705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 4750 5650 50  0001 C CNN
-F 3 "~" H 4750 5650 50  0001 C CNN
-F 4 "Y" H 4750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 4750 5650 50  0001 L CNN "Spice_Primitive"
-	1    4750 5650
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW21
 U 1 1 5E52968F
 P 4450 5500
@@ -420,19 +277,6 @@ F 2 "kbd:CherryMX_Hotswap" H 4450 5500 50  0001 C CNN
 F 3 "" H 4450 5500 50  0000 C CNN
 	1    4450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D22
-U 1 1 5E529697
-P 4750 6300
-F 0 "D22" V 4796 6380 50  0000 L CNN
-F 1 "DIODE" V 4705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 4750 6300 50  0001 C CNN
-F 3 "~" H 4750 6300 50  0001 C CNN
-F 4 "Y" H 4750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 4750 6300 50  0001 L CNN "Spice_Primitive"
-	1    4750 6300
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW24
@@ -483,19 +327,6 @@ F 3 "" H 5450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D26
-U 1 1 5E5385B7
-P 5750 5000
-F 0 "D26" V 5796 5080 50  0000 L CNN
-F 1 "DIODE" V 5705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 5750 5000 50  0001 C CNN
-F 3 "~" H 5750 5000 50  0001 C CNN
-F 4 "Y" H 5750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 5750 5000 50  0001 L CNN "Spice_Primitive"
-	1    5750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW28
 U 1 1 5E5385BD
 P 5450 6150
@@ -507,19 +338,6 @@ F 3 "" H 5450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D27
-U 1 1 5E5385C5
-P 5750 5650
-F 0 "D27" V 5796 5730 50  0000 L CNN
-F 1 "DIODE" V 5705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 5750 5650 50  0001 C CNN
-F 3 "~" H 5750 5650 50  0001 C CNN
-F 4 "Y" H 5750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 5750 5650 50  0001 L CNN "Spice_Primitive"
-	1    5750 5650
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW27
 U 1 1 5E5385CB
 P 5450 5500
@@ -529,19 +347,6 @@ F 2 "kbd:CherryMX_Hotswap" H 5450 5500 50  0001 C CNN
 F 3 "" H 5450 5500 50  0000 C CNN
 	1    5450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D28
-U 1 1 5E5385D3
-P 5750 6300
-F 0 "D28" V 5796 6380 50  0000 L CNN
-F 1 "DIODE" V 5705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 5750 6300 50  0001 C CNN
-F 3 "~" H 5750 6300 50  0001 C CNN
-F 4 "Y" H 5750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 5750 6300 50  0001 L CNN "Spice_Primitive"
-	1    5750 6300
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW30
@@ -592,19 +397,6 @@ F 3 "" H 6450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D32
-U 1 1 5E538637
-P 6750 5000
-F 0 "D32" V 6796 5080 50  0000 L CNN
-F 1 "DIODE" V 6705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 6750 5000 50  0001 C CNN
-F 3 "~" H 6750 5000 50  0001 C CNN
-F 4 "Y" H 6750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 6750 5000 50  0001 L CNN "Spice_Primitive"
-	1    6750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW34
 U 1 1 5E53863D
 P 6450 6150
@@ -616,19 +408,6 @@ F 3 "" H 6450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D33
-U 1 1 5E538645
-P 6750 5650
-F 0 "D33" V 6796 5730 50  0000 L CNN
-F 1 "DIODE" V 6705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 6750 5650 50  0001 C CNN
-F 3 "~" H 6750 5650 50  0001 C CNN
-F 4 "Y" H 6750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 6750 5650 50  0001 L CNN "Spice_Primitive"
-	1    6750 5650
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW33
 U 1 1 5E53864B
 P 6450 5500
@@ -638,19 +417,6 @@ F 2 "kbd:CherryMX_Hotswap" H 6450 5500 50  0001 C CNN
 F 3 "" H 6450 5500 50  0000 C CNN
 	1    6450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D34
-U 1 1 5E538653
-P 6750 6300
-F 0 "D34" V 6796 6380 50  0000 L CNN
-F 1 "DIODE" V 6705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 6750 6300 50  0001 C CNN
-F 3 "~" H 6750 6300 50  0001 C CNN
-F 4 "Y" H 6750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 6750 6300 50  0001 L CNN "Spice_Primitive"
-	1    6750 6300
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW36
@@ -701,19 +467,6 @@ F 3 "" H 7450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D38
-U 1 1 5E549D8B
-P 7750 5000
-F 0 "D38" V 7796 5080 50  0000 L CNN
-F 1 "DIODE" V 7705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 7750 5000 50  0001 C CNN
-F 3 "~" H 7750 5000 50  0001 C CNN
-F 4 "Y" H 7750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 7750 5000 50  0001 L CNN "Spice_Primitive"
-	1    7750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW40
 U 1 1 5E549D91
 P 7450 6150
@@ -725,19 +478,6 @@ F 3 "" H 7450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D39
-U 1 1 5E549D99
-P 7750 5650
-F 0 "D39" V 7796 5730 50  0000 L CNN
-F 1 "DIODE" V 7705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 7750 5650 50  0001 C CNN
-F 3 "~" H 7750 5650 50  0001 C CNN
-F 4 "Y" H 7750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 7750 5650 50  0001 L CNN "Spice_Primitive"
-	1    7750 5650
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW39
 U 1 1 5E549D9F
 P 7450 5500
@@ -747,19 +487,6 @@ F 2 "kbd:CherryMX_Hotswap" H 7450 5500 50  0001 C CNN
 F 3 "" H 7450 5500 50  0000 C CNN
 	1    7450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D40
-U 1 1 5E549DA7
-P 7750 6300
-F 0 "D40" V 7796 6380 50  0000 L CNN
-F 1 "DIODE" V 7705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 7750 6300 50  0001 C CNN
-F 3 "~" H 7750 6300 50  0001 C CNN
-F 4 "Y" H 7750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 7750 6300 50  0001 L CNN "Spice_Primitive"
-	1    7750 6300
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW42
@@ -810,19 +537,6 @@ F 3 "" H 8450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D44
-U 1 1 5E549E0B
-P 8750 5000
-F 0 "D44" V 8796 5080 50  0000 L CNN
-F 1 "DIODE" V 8705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 8750 5000 50  0001 C CNN
-F 3 "~" H 8750 5000 50  0001 C CNN
-F 4 "Y" H 8750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 8750 5000 50  0001 L CNN "Spice_Primitive"
-	1    8750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW46
 U 1 1 5E549E11
 P 8450 6150
@@ -834,19 +548,6 @@ F 3 "" H 8450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D45
-U 1 1 5E549E19
-P 8750 5650
-F 0 "D45" V 8796 5730 50  0000 L CNN
-F 1 "DIODE" V 8705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 8750 5650 50  0001 C CNN
-F 3 "~" H 8750 5650 50  0001 C CNN
-F 4 "Y" H 8750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 8750 5650 50  0001 L CNN "Spice_Primitive"
-	1    8750 5650
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW45
 U 1 1 5E549E1F
 P 8450 5500
@@ -856,19 +557,6 @@ F 2 "kbd:CherryMX_Hotswap" H 8450 5500 50  0001 C CNN
 F 3 "" H 8450 5500 50  0000 C CNN
 	1    8450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D46
-U 1 1 5E549E27
-P 8750 6300
-F 0 "D46" V 8796 6380 50  0000 L CNN
-F 1 "DIODE" V 8705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 8750 6300 50  0001 C CNN
-F 3 "~" H 8750 6300 50  0001 C CNN
-F 4 "Y" H 8750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 8750 6300 50  0001 L CNN "Spice_Primitive"
-	1    8750 6300
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW48
@@ -919,19 +607,6 @@ F 3 "" H 9450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D50
-U 1 1 5E591AA1
-P 9750 5000
-F 0 "D50" V 9796 5080 50  0000 L CNN
-F 1 "DIODE" V 9705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 9750 5000 50  0001 C CNN
-F 3 "~" H 9750 5000 50  0001 C CNN
-F 4 "Y" H 9750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 9750 5000 50  0001 L CNN "Spice_Primitive"
-	1    9750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW52
 U 1 1 5E591AA7
 P 9450 6150
@@ -943,19 +618,6 @@ F 3 "" H 9450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D51
-U 1 1 5E591AAF
-P 9750 5650
-F 0 "D51" V 9796 5730 50  0000 L CNN
-F 1 "DIODE" V 9705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 9750 5650 50  0001 C CNN
-F 3 "~" H 9750 5650 50  0001 C CNN
-F 4 "Y" H 9750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 9750 5650 50  0001 L CNN "Spice_Primitive"
-	1    9750 5650
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW51
 U 1 1 5E591AB5
 P 9450 5500
@@ -965,19 +627,6 @@ F 2 "kbd:CherryMX_Hotswap" H 9450 5500 50  0001 C CNN
 F 3 "" H 9450 5500 50  0000 C CNN
 	1    9450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D52
-U 1 1 5E591ABD
-P 9750 6300
-F 0 "D52" V 9796 6380 50  0000 L CNN
-F 1 "DIODE" V 9705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 9750 6300 50  0001 C CNN
-F 3 "~" H 9750 6300 50  0001 C CNN
-F 4 "Y" H 9750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 9750 6300 50  0001 L CNN "Spice_Primitive"
-	1    9750 6300
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW54
@@ -1028,19 +677,6 @@ F 3 "" H 10450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D56
-U 1 1 5E591B21
-P 10750 5000
-F 0 "D56" V 10796 5080 50  0000 L CNN
-F 1 "DIODE" V 10705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 10750 5000 50  0001 C CNN
-F 3 "~" H 10750 5000 50  0001 C CNN
-F 4 "Y" H 10750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 10750 5000 50  0001 L CNN "Spice_Primitive"
-	1    10750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW58
 U 1 1 5E591B27
 P 10450 6150
@@ -1052,19 +688,6 @@ F 3 "" H 10450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D57
-U 1 1 5E591B2F
-P 10750 5650
-F 0 "D57" V 10796 5730 50  0000 L CNN
-F 1 "DIODE" V 10705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 10750 5650 50  0001 C CNN
-F 3 "~" H 10750 5650 50  0001 C CNN
-F 4 "Y" H 10750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 10750 5650 50  0001 L CNN "Spice_Primitive"
-	1    10750 5650
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW57
 U 1 1 5E591B35
 P 10450 5500
@@ -1074,19 +697,6 @@ F 2 "kbd:CherryMX_Hotswap" H 10450 5500 50  0001 C CNN
 F 3 "" H 10450 5500 50  0000 C CNN
 	1    10450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D58
-U 1 1 5E591B3D
-P 10750 6300
-F 0 "D58" V 10796 6380 50  0000 L CNN
-F 1 "DIODE" V 10705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 10750 6300 50  0001 C CNN
-F 3 "~" H 10750 6300 50  0001 C CNN
-F 4 "Y" H 10750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 10750 6300 50  0001 L CNN "Spice_Primitive"
-	1    10750 6300
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW60
@@ -1137,19 +747,6 @@ F 3 "" H 11450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D62
-U 1 1 5E591BA1
-P 11750 5000
-F 0 "D62" V 11796 5080 50  0000 L CNN
-F 1 "DIODE" V 11705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 11750 5000 50  0001 C CNN
-F 3 "~" H 11750 5000 50  0001 C CNN
-F 4 "Y" H 11750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 11750 5000 50  0001 L CNN "Spice_Primitive"
-	1    11750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW64
 U 1 1 5E591BA7
 P 11450 6150
@@ -1161,19 +758,6 @@ F 3 "" H 11450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D63
-U 1 1 5E591BAF
-P 11750 5650
-F 0 "D63" V 11796 5730 50  0000 L CNN
-F 1 "DIODE" V 11705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 11750 5650 50  0001 C CNN
-F 3 "~" H 11750 5650 50  0001 C CNN
-F 4 "Y" H 11750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 11750 5650 50  0001 L CNN "Spice_Primitive"
-	1    11750 5650
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW63
 U 1 1 5E591BB5
 P 11450 5500
@@ -1183,19 +767,6 @@ F 2 "kbd:CherryMX_Hotswap" H 11450 5500 50  0001 C CNN
 F 3 "" H 11450 5500 50  0000 C CNN
 	1    11450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D64
-U 1 1 5E591BBD
-P 11750 6300
-F 0 "D64" V 11796 6380 50  0000 L CNN
-F 1 "DIODE" V 11705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 11750 6300 50  0001 C CNN
-F 3 "~" H 11750 6300 50  0001 C CNN
-F 4 "Y" H 11750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 11750 6300 50  0001 L CNN "Spice_Primitive"
-	1    11750 6300
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW66
@@ -1246,19 +817,6 @@ F 3 "" H 12450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D68
-U 1 1 5E591C21
-P 12750 5000
-F 0 "D68" V 12796 5080 50  0000 L CNN
-F 1 "DIODE" V 12705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 12750 5000 50  0001 C CNN
-F 3 "~" H 12750 5000 50  0001 C CNN
-F 4 "Y" H 12750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 12750 5000 50  0001 L CNN "Spice_Primitive"
-	1    12750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW70
 U 1 1 5E591C27
 P 12450 6150
@@ -1270,19 +828,6 @@ F 3 "" H 12450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D69
-U 1 1 5E591C2F
-P 12750 5650
-F 0 "D69" V 12796 5730 50  0000 L CNN
-F 1 "DIODE" V 12705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 12750 5650 50  0001 C CNN
-F 3 "~" H 12750 5650 50  0001 C CNN
-F 4 "Y" H 12750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 12750 5650 50  0001 L CNN "Spice_Primitive"
-	1    12750 5650
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW69
 U 1 1 5E591C35
 P 12450 5500
@@ -1292,19 +837,6 @@ F 2 "kbd:CherryMX_Hotswap" H 12450 5500 50  0001 C CNN
 F 3 "" H 12450 5500 50  0000 C CNN
 	1    12450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D70
-U 1 1 5E591C3D
-P 12750 6300
-F 0 "D70" V 12796 6380 50  0000 L CNN
-F 1 "DIODE" V 12705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 12750 6300 50  0001 C CNN
-F 3 "~" H 12750 6300 50  0001 C CNN
-F 4 "Y" H 12750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 12750 6300 50  0001 L CNN "Spice_Primitive"
-	1    12750 6300
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW72
@@ -1355,19 +887,6 @@ F 3 "" H 13450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D74
-U 1 1 5E591CA1
-P 13750 5000
-F 0 "D74" V 13796 5080 50  0000 L CNN
-F 1 "DIODE" V 13705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 13750 5000 50  0001 C CNN
-F 3 "~" H 13750 5000 50  0001 C CNN
-F 4 "Y" H 13750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 13750 5000 50  0001 L CNN "Spice_Primitive"
-	1    13750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW76
 U 1 1 5E591CA7
 P 13450 6150
@@ -1379,19 +898,6 @@ F 3 "" H 13450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D75
-U 1 1 5E591CAF
-P 13750 5650
-F 0 "D75" V 13796 5730 50  0000 L CNN
-F 1 "DIODE" V 13705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 13750 5650 50  0001 C CNN
-F 3 "~" H 13750 5650 50  0001 C CNN
-F 4 "Y" H 13750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 13750 5650 50  0001 L CNN "Spice_Primitive"
-	1    13750 5650
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW75
 U 1 1 5E591CB5
 P 13450 5500
@@ -1401,19 +907,6 @@ F 2 "kbd:CherryMX_Hotswap" H 13450 5500 50  0001 C CNN
 F 3 "" H 13450 5500 50  0000 C CNN
 	1    13450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D76
-U 1 1 5E591CBD
-P 13750 6300
-F 0 "D76" V 13796 6380 50  0000 L CNN
-F 1 "DIODE" V 13705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 13750 6300 50  0001 C CNN
-F 3 "~" H 13750 6300 50  0001 C CNN
-F 4 "Y" H 13750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 13750 6300 50  0001 L CNN "Spice_Primitive"
-	1    13750 6300
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW78
@@ -1464,19 +957,6 @@ F 3 "" H 14450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D80
-U 1 1 5E591D21
-P 14750 5000
-F 0 "D80" V 14796 5080 50  0000 L CNN
-F 1 "DIODE" V 14705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 14750 5000 50  0001 C CNN
-F 3 "~" H 14750 5000 50  0001 C CNN
-F 4 "Y" H 14750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 14750 5000 50  0001 L CNN "Spice_Primitive"
-	1    14750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW82
 U 1 1 5E591D27
 P 14450 6150
@@ -1488,19 +968,6 @@ F 3 "" H 14450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D81
-U 1 1 5E591D2F
-P 14750 5650
-F 0 "D81" V 14796 5730 50  0000 L CNN
-F 1 "DIODE" V 14705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 14750 5650 50  0001 C CNN
-F 3 "~" H 14750 5650 50  0001 C CNN
-F 4 "Y" H 14750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 14750 5650 50  0001 L CNN "Spice_Primitive"
-	1    14750 5650
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW81
 U 1 1 5E591D35
 P 14450 5500
@@ -1510,19 +977,6 @@ F 2 "kbd:CherryMX_Hotswap" H 14450 5500 50  0001 C CNN
 F 3 "" H 14450 5500 50  0000 C CNN
 	1    14450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D82
-U 1 1 5E591D3D
-P 14750 6300
-F 0 "D82" V 14796 6380 50  0000 L CNN
-F 1 "DIODE" V 14705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 14750 6300 50  0001 C CNN
-F 3 "~" H 14750 6300 50  0001 C CNN
-F 4 "Y" H 14750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 14750 6300 50  0001 L CNN "Spice_Primitive"
-	1    14750 6300
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW84
@@ -1573,19 +1027,6 @@ F 3 "" H 15450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Simulation_SPICE:DIODE D86
-U 1 1 5E591DA1
-P 15750 5000
-F 0 "D86" V 15796 5080 50  0000 L CNN
-F 1 "DIODE" V 15705 5080 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 15750 5000 50  0001 C CNN
-F 3 "~" H 15750 5000 50  0001 C CNN
-F 4 "Y" H 15750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 15750 5000 50  0001 L CNN "Spice_Primitive"
-	1    15750 5000
-	0    1    -1   0   
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW88
 U 1 1 5E591DA7
 P 15450 6150
@@ -1595,19 +1036,6 @@ F 2 "kbd:CherryMX_Hotswap" H 15450 6150 50  0001 C CNN
 F 3 "" H 15450 6150 50  0000 C CNN
 	1    15450 6150
 	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D87
-U 1 1 5E591DAF
-P 15750 5650
-F 0 "D87" V 15796 5730 50  0000 L CNN
-F 1 "DIODE" V 15705 5730 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 15750 5650 50  0001 C CNN
-F 3 "~" H 15750 5650 50  0001 C CNN
-F 4 "Y" H 15750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 15750 5650 50  0001 L CNN "Spice_Primitive"
-	1    15750 5650
-	0    1    -1   0   
 $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW87
@@ -1646,9 +1074,9 @@ Text GLabel 15150 3900 1    50   BiDi ~ 0
 col14
 Wire Wire Line
 	15150 3900 15150 4200
-Text GLabel 9700 1800 2    50   Input ~ 0
+Text GLabel 9700 1800 2    50   Output ~ 0
 col12
-Text GLabel 9700 1900 2    50   Input ~ 0
+Text GLabel 9700 1900 2    50   Output ~ 0
 col13
 $Comp
 L power:GND #PWR05
@@ -1778,211 +1206,16 @@ NoConn ~ 18800 2550
 NoConn ~ 18800 2650
 Text GLabel 17000 2450 0    50   Output ~ 0
 hardware_reset
-Text GLabel 8200 2100 2    50   Input ~ 0
+Text GLabel 8200 2100 2    50   Output ~ 0
 col07
-Text GLabel 9700 2000 2    50   Input ~ 0
+Text GLabel 9700 2000 2    50   Output ~ 0
 col14
-Text GLabel 9700 1400 2    50   Input ~ 0
+Text GLabel 9700 1400 2    50   Output ~ 0
 col08
-Text GLabel 8200 1900 2    50   Input ~ 0
+Text GLabel 8200 1900 2    50   Output ~ 0
 col05
-Text GLabel 8200 2000 2    50   Input ~ 0
+Text GLabel 8200 2000 2    50   Output ~ 0
 col06
-$Comp
-L Simulation_SPICE:DIODE D5
-U 1 1 5E4FCCC3
-P 1750 6950
-F 0 "D5" V 1796 7030 50  0000 L CNN
-F 1 "DIODE" V 1705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 1750 6950 50  0001 C CNN
-F 3 "~" H 1750 6950 50  0001 C CNN
-F 4 "Y" H 1750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 1750 6950 50  0001 L CNN "Spice_Primitive"
-	1    1750 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D11
-U 1 1 5E518A21
-P 2750 6950
-F 0 "D11" V 2796 7030 50  0000 L CNN
-F 1 "DIODE" V 2705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 2750 6950 50  0001 C CNN
-F 3 "~" H 2750 6950 50  0001 C CNN
-F 4 "Y" H 2750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 2750 6950 50  0001 L CNN "Spice_Primitive"
-	1    2750 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D17
-U 1 1 5E529625
-P 3750 6950
-F 0 "D17" V 3796 7030 50  0000 L CNN
-F 1 "DIODE" V 3705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 3750 6950 50  0001 C CNN
-F 3 "~" H 3750 6950 50  0001 C CNN
-F 4 "Y" H 3750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 3750 6950 50  0001 L CNN "Spice_Primitive"
-	1    3750 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D23
-U 1 1 5E5296A5
-P 4750 6950
-F 0 "D23" V 4796 7030 50  0000 L CNN
-F 1 "DIODE" V 4705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 4750 6950 50  0001 C CNN
-F 3 "~" H 4750 6950 50  0001 C CNN
-F 4 "Y" H 4750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 4750 6950 50  0001 L CNN "Spice_Primitive"
-	1    4750 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D29
-U 1 1 5E5385E1
-P 5750 6950
-F 0 "D29" V 5796 7030 50  0000 L CNN
-F 1 "DIODE" V 5705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 5750 6950 50  0001 C CNN
-F 3 "~" H 5750 6950 50  0001 C CNN
-F 4 "Y" H 5750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 5750 6950 50  0001 L CNN "Spice_Primitive"
-	1    5750 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D35
-U 1 1 5E538661
-P 6750 6950
-F 0 "D35" V 6796 7030 50  0000 L CNN
-F 1 "DIODE" V 6705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 6750 6950 50  0001 C CNN
-F 3 "~" H 6750 6950 50  0001 C CNN
-F 4 "Y" H 6750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 6750 6950 50  0001 L CNN "Spice_Primitive"
-	1    6750 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D41
-U 1 1 5E549DB5
-P 7750 6950
-F 0 "D41" V 7796 7030 50  0000 L CNN
-F 1 "DIODE" V 7705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 7750 6950 50  0001 C CNN
-F 3 "~" H 7750 6950 50  0001 C CNN
-F 4 "Y" H 7750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 7750 6950 50  0001 L CNN "Spice_Primitive"
-	1    7750 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D47
-U 1 1 5E549E35
-P 8750 6950
-F 0 "D47" V 8796 7030 50  0000 L CNN
-F 1 "DIODE" V 8705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 8750 6950 50  0001 C CNN
-F 3 "~" H 8750 6950 50  0001 C CNN
-F 4 "Y" H 8750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 8750 6950 50  0001 L CNN "Spice_Primitive"
-	1    8750 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D53
-U 1 1 5E591ACB
-P 9750 6950
-F 0 "D53" V 9796 7030 50  0000 L CNN
-F 1 "DIODE" V 9705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 9750 6950 50  0001 C CNN
-F 3 "~" H 9750 6950 50  0001 C CNN
-F 4 "Y" H 9750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 9750 6950 50  0001 L CNN "Spice_Primitive"
-	1    9750 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D59
-U 1 1 5E591B4B
-P 10750 6950
-F 0 "D59" V 10796 7030 50  0000 L CNN
-F 1 "DIODE" V 10705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 10750 6950 50  0001 C CNN
-F 3 "~" H 10750 6950 50  0001 C CNN
-F 4 "Y" H 10750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 10750 6950 50  0001 L CNN "Spice_Primitive"
-	1    10750 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D65
-U 1 1 5E591BCB
-P 11750 6950
-F 0 "D65" V 11796 7030 50  0000 L CNN
-F 1 "DIODE" V 11705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 11750 6950 50  0001 C CNN
-F 3 "~" H 11750 6950 50  0001 C CNN
-F 4 "Y" H 11750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 11750 6950 50  0001 L CNN "Spice_Primitive"
-	1    11750 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D71
-U 1 1 5E591C4B
-P 12750 6950
-F 0 "D71" V 12796 7030 50  0000 L CNN
-F 1 "DIODE" V 12705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 12750 6950 50  0001 C CNN
-F 3 "~" H 12750 6950 50  0001 C CNN
-F 4 "Y" H 12750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 12750 6950 50  0001 L CNN "Spice_Primitive"
-	1    12750 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D77
-U 1 1 5E591CCB
-P 13750 6950
-F 0 "D77" V 13796 7030 50  0000 L CNN
-F 1 "DIODE" V 13705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 13750 6950 50  0001 C CNN
-F 3 "~" H 13750 6950 50  0001 C CNN
-F 4 "Y" H 13750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 13750 6950 50  0001 L CNN "Spice_Primitive"
-	1    13750 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D83
-U 1 1 5E591D4B
-P 14750 6950
-F 0 "D83" V 14796 7030 50  0000 L CNN
-F 1 "DIODE" V 14705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 14750 6950 50  0001 C CNN
-F 3 "~" H 14750 6950 50  0001 C CNN
-F 4 "Y" H 14750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 14750 6950 50  0001 L CNN "Spice_Primitive"
-	1    14750 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Simulation_SPICE:DIODE D89
-U 1 1 5E591DCB
-P 15750 6950
-F 0 "D89" V 15796 7030 50  0000 L CNN
-F 1 "DIODE" V 15705 7030 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 15750 6950 50  0001 C CNN
-F 3 "~" H 15750 6950 50  0001 C CNN
-F 4 "Y" H 15750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 15750 6950 50  0001 L CNN "Spice_Primitive"
-	1    15750 6950
-	0    1    -1   0   
-$EndComp
 $Comp
 L Simulation_SPICE:DIODE D90
 U 1 1 5E591DD9
@@ -1994,7 +1227,7 @@ F 3 "~" H 15750 7600 50  0001 C CNN
 F 4 "Y" H 15750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 15750 7600 50  0001 L CNN "Spice_Primitive"
 	1    15750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D84
@@ -2007,7 +1240,7 @@ F 3 "~" H 14750 7600 50  0001 C CNN
 F 4 "Y" H 14750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 14750 7600 50  0001 L CNN "Spice_Primitive"
 	1    14750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D78
@@ -2020,7 +1253,7 @@ F 3 "~" H 13750 7600 50  0001 C CNN
 F 4 "Y" H 13750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 13750 7600 50  0001 L CNN "Spice_Primitive"
 	1    13750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D72
@@ -2033,7 +1266,7 @@ F 3 "~" H 12750 7600 50  0001 C CNN
 F 4 "Y" H 12750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 12750 7600 50  0001 L CNN "Spice_Primitive"
 	1    12750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D66
@@ -2046,7 +1279,7 @@ F 3 "~" H 11750 7600 50  0001 C CNN
 F 4 "Y" H 11750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 11750 7600 50  0001 L CNN "Spice_Primitive"
 	1    11750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D60
@@ -2059,7 +1292,7 @@ F 3 "~" H 10750 7600 50  0001 C CNN
 F 4 "Y" H 10750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 10750 7600 50  0001 L CNN "Spice_Primitive"
 	1    10750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D54
@@ -2072,7 +1305,7 @@ F 3 "~" H 9750 7600 50  0001 C CNN
 F 4 "Y" H 9750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 9750 7600 50  0001 L CNN "Spice_Primitive"
 	1    9750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D48
@@ -2085,7 +1318,7 @@ F 3 "~" H 8750 7600 50  0001 C CNN
 F 4 "Y" H 8750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 8750 7600 50  0001 L CNN "Spice_Primitive"
 	1    8750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D42
@@ -2098,7 +1331,7 @@ F 3 "~" H 7750 7600 50  0001 C CNN
 F 4 "Y" H 7750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 7750 7600 50  0001 L CNN "Spice_Primitive"
 	1    7750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D36
@@ -2111,7 +1344,7 @@ F 3 "~" H 6750 7600 50  0001 C CNN
 F 4 "Y" H 6750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 6750 7600 50  0001 L CNN "Spice_Primitive"
 	1    6750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D30
@@ -2124,7 +1357,7 @@ F 3 "~" H 5750 7600 50  0001 C CNN
 F 4 "Y" H 5750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 5750 7600 50  0001 L CNN "Spice_Primitive"
 	1    5750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D24
@@ -2137,7 +1370,7 @@ F 3 "~" H 4750 7600 50  0001 C CNN
 F 4 "Y" H 4750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 4750 7600 50  0001 L CNN "Spice_Primitive"
 	1    4750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D18
@@ -2150,7 +1383,7 @@ F 3 "~" H 3750 7600 50  0001 C CNN
 F 4 "Y" H 3750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 3750 7600 50  0001 L CNN "Spice_Primitive"
 	1    3750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D12
@@ -2163,7 +1396,7 @@ F 3 "~" H 2750 7600 50  0001 C CNN
 F 4 "Y" H 2750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 2750 7600 50  0001 L CNN "Spice_Primitive"
 	1    2750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D6
@@ -2176,7 +1409,7 @@ F 3 "~" H 1750 7600 50  0001 C CNN
 F 4 "Y" H 1750 7600 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 1750 7600 50  0001 L CNN "Spice_Primitive"
 	1    1750 7600
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 Connection ~ 1150 4200
 Connection ~ 1150 4850
@@ -2193,7 +1426,7 @@ F 3 "~" H 14750 4350 50  0001 C CNN
 F 4 "Y" H 14750 4350 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 14750 4350 50  0001 L CNN "Spice_Primitive"
 	1    14750 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D73
@@ -2206,7 +1439,7 @@ F 3 "~" H 13750 4350 50  0001 C CNN
 F 4 "Y" H 13750 4350 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 13750 4350 50  0001 L CNN "Spice_Primitive"
 	1    13750 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D67
@@ -2219,7 +1452,7 @@ F 3 "~" H 12750 4350 50  0001 C CNN
 F 4 "Y" H 12750 4350 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 12750 4350 50  0001 L CNN "Spice_Primitive"
 	1    12750 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D61
@@ -2232,7 +1465,7 @@ F 3 "~" H 11750 4350 50  0001 C CNN
 F 4 "Y" H 11750 4350 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 11750 4350 50  0001 L CNN "Spice_Primitive"
 	1    11750 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D55
@@ -2245,7 +1478,7 @@ F 3 "~" H 10750 4350 50  0001 C CNN
 F 4 "Y" H 10750 4350 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 10750 4350 50  0001 L CNN "Spice_Primitive"
 	1    10750 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D49
@@ -2258,7 +1491,7 @@ F 3 "~" H 9750 4350 50  0001 C CNN
 F 4 "Y" H 9750 4350 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 9750 4350 50  0001 L CNN "Spice_Primitive"
 	1    9750 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D43
@@ -2271,7 +1504,7 @@ F 3 "~" H 8750 4350 50  0001 C CNN
 F 4 "Y" H 8750 4350 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 8750 4350 50  0001 L CNN "Spice_Primitive"
 	1    8750 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D37
@@ -2284,7 +1517,7 @@ F 3 "~" H 7750 4350 50  0001 C CNN
 F 4 "Y" H 7750 4350 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 7750 4350 50  0001 L CNN "Spice_Primitive"
 	1    7750 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D31
@@ -2297,7 +1530,7 @@ F 3 "~" H 6750 4350 50  0001 C CNN
 F 4 "Y" H 6750 4350 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 6750 4350 50  0001 L CNN "Spice_Primitive"
 	1    6750 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D25
@@ -2310,7 +1543,7 @@ F 3 "~" H 5750 4350 50  0001 C CNN
 F 4 "Y" H 5750 4350 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 5750 4350 50  0001 L CNN "Spice_Primitive"
 	1    5750 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D19
@@ -2323,7 +1556,7 @@ F 3 "~" H 4750 4350 50  0001 C CNN
 F 4 "Y" H 4750 4350 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 4750 4350 50  0001 L CNN "Spice_Primitive"
 	1    4750 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D13
@@ -2336,7 +1569,7 @@ F 3 "~" H 3750 4350 50  0001 C CNN
 F 4 "Y" H 3750 4350 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 3750 4350 50  0001 L CNN "Spice_Primitive"
 	1    3750 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D7
@@ -2349,7 +1582,7 @@ F 3 "~" H 2750 4350 50  0001 C CNN
 F 4 "Y" H 2750 4350 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 2750 4350 50  0001 L CNN "Spice_Primitive"
 	1    2750 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D1
@@ -2375,548 +1608,41 @@ F 3 "~" H 15750 4350 50  0001 C CNN
 F 4 "Y" H 15750 4350 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 15750 4350 50  0001 L CNN "Spice_Primitive"
 	1    15750 4350
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	950  4500 1750 4500
-Wire Wire Line
-	950  5150 1750 5150
-Wire Wire Line
-	950  5800 1750 5800
-Wire Wire Line
-	950  6450 1750 6450
-Wire Wire Line
-	2150 4200 2150 4850
-Wire Wire Line
-	3150 4200 3150 4850
-Wire Wire Line
-	4150 4200 4150 4850
-Wire Wire Line
-	5150 4200 5150 4850
-Wire Wire Line
-	6150 4200 6150 4850
-Wire Wire Line
-	7150 4200 7150 4850
-Wire Wire Line
-	8150 4200 8150 4850
-Wire Wire Line
-	9150 4200 9150 4850
-Wire Wire Line
-	10150 4200 10150 4850
-Wire Wire Line
-	11150 4200 11150 4850
-Wire Wire Line
-	12150 4200 12150 4850
-Wire Wire Line
-	13150 4200 13150 4850
-Wire Wire Line
-	14150 4200 14150 4850
-Wire Wire Line
-	15150 4200 15150 4850
-Wire Wire Line
-	950  7100 1750 7100
-Wire Wire Line
-	950  7750 1750 7750
-Connection ~ 2150 4200
-Connection ~ 2150 4850
-Wire Wire Line
-	2150 4850 2150 5500
-Connection ~ 2150 5500
-Wire Wire Line
-	2150 5500 2150 6150
-Connection ~ 2150 6150
-Wire Wire Line
-	2150 6150 2150 6800
-Connection ~ 2150 6800
-Wire Wire Line
-	2150 6800 2150 7450
-Connection ~ 3150 4200
-Connection ~ 3150 4850
-Wire Wire Line
-	3150 4850 3150 5500
-Connection ~ 3150 5500
-Wire Wire Line
-	3150 5500 3150 6150
-Connection ~ 3150 6150
-Wire Wire Line
-	3150 6150 3150 6800
-Connection ~ 3150 6800
-Wire Wire Line
-	3150 6800 3150 7450
-Connection ~ 4150 4200
-Connection ~ 4150 4850
-Wire Wire Line
-	4150 4850 4150 5500
-Connection ~ 4150 5500
-Wire Wire Line
-	4150 5500 4150 6150
-Connection ~ 4150 6150
-Wire Wire Line
-	4150 6150 4150 6800
-Connection ~ 4150 6800
-Wire Wire Line
-	4150 6800 4150 7450
-Connection ~ 5150 4200
-Connection ~ 5150 4850
-Wire Wire Line
-	5150 4850 5150 5500
-Connection ~ 5150 5500
-Wire Wire Line
-	5150 5500 5150 6150
-Connection ~ 5150 6150
-Wire Wire Line
-	5150 6150 5150 6800
-Connection ~ 5150 6800
-Wire Wire Line
-	5150 6800 5150 7450
-Connection ~ 6150 4200
-Connection ~ 6150 4850
-Wire Wire Line
-	6150 4850 6150 5500
-Connection ~ 6150 5500
-Wire Wire Line
-	6150 5500 6150 6150
-Connection ~ 6150 6150
-Wire Wire Line
-	6150 6150 6150 6800
-Connection ~ 6150 6800
-Wire Wire Line
-	6150 6800 6150 7450
-Connection ~ 7150 4200
-Connection ~ 7150 4850
-Wire Wire Line
-	7150 4850 7150 5500
-Connection ~ 7150 5500
-Wire Wire Line
-	7150 5500 7150 6150
-Connection ~ 7150 6150
-Wire Wire Line
-	7150 6150 7150 6800
-Connection ~ 7150 6800
-Wire Wire Line
-	7150 6800 7150 7450
-Connection ~ 8150 4200
-Connection ~ 8150 4850
-Wire Wire Line
-	8150 4850 8150 5500
-Connection ~ 8150 5500
-Wire Wire Line
-	8150 5500 8150 6150
-Connection ~ 8150 6150
-Wire Wire Line
-	8150 6150 8150 6800
-Connection ~ 8150 6800
-Wire Wire Line
-	8150 6800 8150 7450
-Connection ~ 9150 4200
-Connection ~ 9150 4850
-Wire Wire Line
-	9150 4850 9150 5500
-Connection ~ 9150 5500
-Wire Wire Line
-	9150 5500 9150 6150
-Connection ~ 9150 6150
-Wire Wire Line
-	9150 6150 9150 6800
-Connection ~ 9150 6800
-Wire Wire Line
-	9150 6800 9150 7450
-Connection ~ 10150 4200
-Connection ~ 10150 4850
-Wire Wire Line
-	10150 4850 10150 5500
-Connection ~ 10150 5500
-Wire Wire Line
-	10150 5500 10150 6150
-Connection ~ 10150 6150
-Wire Wire Line
-	10150 6150 10150 6800
-Connection ~ 10150 6800
-Wire Wire Line
-	10150 6800 10150 7450
-Connection ~ 11150 4200
-Connection ~ 11150 4850
-Wire Wire Line
-	11150 4850 11150 5500
-Connection ~ 11150 5500
-Wire Wire Line
-	11150 5500 11150 6150
-Connection ~ 11150 6150
-Wire Wire Line
-	11150 6150 11150 6800
-Connection ~ 11150 6800
-Wire Wire Line
-	11150 6800 11150 7450
-Connection ~ 12150 4200
-Connection ~ 12150 4850
-Wire Wire Line
-	12150 4850 12150 5500
-Connection ~ 12150 5500
-Wire Wire Line
-	12150 5500 12150 6150
-Connection ~ 12150 6150
-Wire Wire Line
-	12150 6150 12150 6800
-Connection ~ 12150 6800
-Wire Wire Line
-	12150 6800 12150 7450
-Connection ~ 13150 4200
-Connection ~ 13150 4850
-Wire Wire Line
-	13150 4850 13150 5500
-Connection ~ 13150 5500
-Wire Wire Line
-	13150 5500 13150 6150
-Connection ~ 13150 6150
-Wire Wire Line
-	13150 6150 13150 6800
-Connection ~ 13150 6800
-Wire Wire Line
-	13150 6800 13150 7450
-Connection ~ 14150 4200
-Connection ~ 14150 4850
-Wire Wire Line
-	14150 4850 14150 5500
-Connection ~ 14150 5500
-Wire Wire Line
-	14150 5500 14150 6150
-Connection ~ 14150 6150
-Wire Wire Line
-	14150 6150 14150 6800
-Connection ~ 14150 6800
-Wire Wire Line
-	14150 6800 14150 7450
-Connection ~ 15150 4200
-Connection ~ 15150 4850
-Wire Wire Line
-	15150 4850 15150 5500
-Connection ~ 15150 5500
-Connection ~ 15150 6800
-Wire Wire Line
-	15150 6800 15150 7450
-Connection ~ 1750 4500
-Wire Wire Line
-	1750 4500 2750 4500
-Connection ~ 1750 5150
-Wire Wire Line
-	1750 5150 2750 5150
-Connection ~ 1750 5800
-Wire Wire Line
-	1750 5800 2750 5800
-Connection ~ 1750 6450
-Wire Wire Line
-	1750 6450 2750 6450
-Connection ~ 1750 7100
-Wire Wire Line
-	1750 7100 2750 7100
-Connection ~ 1750 7750
-Wire Wire Line
-	1750 7750 2750 7750
-Connection ~ 2750 4500
-Wire Wire Line
-	2750 4500 3750 4500
-Connection ~ 2750 5150
-Wire Wire Line
-	2750 5150 3750 5150
-Connection ~ 2750 5800
-Wire Wire Line
-	2750 5800 3750 5800
-Connection ~ 2750 6450
-Wire Wire Line
-	2750 6450 3750 6450
-Connection ~ 2750 7100
-Wire Wire Line
-	2750 7100 3750 7100
-Connection ~ 2750 7750
-Wire Wire Line
-	2750 7750 3750 7750
-Connection ~ 3750 4500
-Wire Wire Line
-	3750 4500 4750 4500
-Connection ~ 3750 5150
-Wire Wire Line
-	3750 5150 4750 5150
-Connection ~ 3750 5800
-Wire Wire Line
-	3750 5800 4750 5800
-Connection ~ 3750 6450
-Wire Wire Line
-	3750 6450 4750 6450
-Connection ~ 3750 7100
-Wire Wire Line
-	3750 7100 4750 7100
-Connection ~ 3750 7750
-Wire Wire Line
-	3750 7750 4750 7750
-Connection ~ 4750 4500
-Wire Wire Line
-	4750 4500 5750 4500
-Connection ~ 4750 5150
-Wire Wire Line
-	4750 5150 5750 5150
-Connection ~ 4750 5800
-Wire Wire Line
-	4750 5800 5750 5800
-Connection ~ 4750 6450
-Wire Wire Line
-	4750 6450 5750 6450
-Connection ~ 4750 7100
-Wire Wire Line
-	4750 7100 5750 7100
-Connection ~ 4750 7750
-Wire Wire Line
-	4750 7750 5750 7750
-Connection ~ 5750 4500
-Wire Wire Line
-	5750 4500 6750 4500
-Connection ~ 5750 5150
-Wire Wire Line
-	5750 5150 6750 5150
-Connection ~ 5750 5800
-Wire Wire Line
-	5750 5800 6750 5800
-Connection ~ 5750 6450
-Wire Wire Line
-	5750 6450 6750 6450
-Connection ~ 5750 7100
-Wire Wire Line
-	5750 7100 6750 7100
-Connection ~ 5750 7750
-Wire Wire Line
-	5750 7750 6750 7750
-Connection ~ 6750 4500
-Wire Wire Line
-	6750 4500 7750 4500
-Connection ~ 6750 5150
-Wire Wire Line
-	6750 5150 7750 5150
-Connection ~ 6750 5800
-Wire Wire Line
-	6750 5800 7750 5800
-Connection ~ 6750 6450
-Wire Wire Line
-	6750 6450 7750 6450
-Connection ~ 6750 7100
-Wire Wire Line
-	6750 7100 7750 7100
-Connection ~ 6750 7750
-Wire Wire Line
-	6750 7750 7750 7750
-Connection ~ 7750 4500
-Wire Wire Line
-	7750 4500 8750 4500
-Connection ~ 7750 5150
-Wire Wire Line
-	7750 5150 8750 5150
-Connection ~ 7750 5800
-Wire Wire Line
-	7750 5800 8750 5800
-Connection ~ 7750 6450
-Wire Wire Line
-	7750 6450 8750 6450
-Connection ~ 7750 7100
-Wire Wire Line
-	7750 7100 8750 7100
-Connection ~ 7750 7750
-Wire Wire Line
-	7750 7750 8750 7750
-Connection ~ 8750 4500
-Wire Wire Line
-	8750 4500 9750 4500
-Connection ~ 8750 5150
-Wire Wire Line
-	8750 5150 9750 5150
-Connection ~ 8750 5800
-Wire Wire Line
-	8750 5800 9750 5800
-Connection ~ 8750 6450
-Wire Wire Line
-	8750 6450 9750 6450
-Connection ~ 8750 7100
-Wire Wire Line
-	8750 7100 9750 7100
-Connection ~ 8750 7750
-Wire Wire Line
-	8750 7750 9750 7750
-Connection ~ 9750 4500
-Wire Wire Line
-	9750 4500 10750 4500
-Connection ~ 9750 5150
-Wire Wire Line
-	9750 5150 10750 5150
-Connection ~ 9750 5800
-Wire Wire Line
-	9750 5800 10750 5800
-Connection ~ 9750 6450
-Wire Wire Line
-	9750 6450 10750 6450
-Connection ~ 9750 7100
-Wire Wire Line
-	9750 7100 10750 7100
-Connection ~ 9750 7750
-Wire Wire Line
-	9750 7750 10750 7750
-Connection ~ 10750 4500
-Wire Wire Line
-	10750 4500 11750 4500
-Connection ~ 10750 5150
-Wire Wire Line
-	10750 5150 11750 5150
-Connection ~ 10750 5800
-Wire Wire Line
-	10750 5800 11750 5800
-Connection ~ 10750 6450
-Wire Wire Line
-	10750 6450 11750 6450
-Connection ~ 10750 7100
-Wire Wire Line
-	10750 7100 11750 7100
-Connection ~ 10750 7750
-Wire Wire Line
-	10750 7750 11750 7750
-Connection ~ 11750 4500
-Wire Wire Line
-	11750 4500 12750 4500
-Connection ~ 11750 5150
-Wire Wire Line
-	11750 5150 12750 5150
-Connection ~ 11750 5800
-Wire Wire Line
-	11750 5800 12750 5800
-Connection ~ 11750 6450
-Wire Wire Line
-	11750 6450 12750 6450
-Connection ~ 11750 7100
-Wire Wire Line
-	11750 7100 12750 7100
-Connection ~ 11750 7750
-Wire Wire Line
-	11750 7750 12750 7750
-Connection ~ 12750 4500
-Wire Wire Line
-	12750 4500 13750 4500
-Connection ~ 12750 5150
-Wire Wire Line
-	12750 5150 13750 5150
-Connection ~ 12750 5800
-Wire Wire Line
-	12750 5800 13750 5800
-Connection ~ 12750 6450
-Wire Wire Line
-	12750 6450 13750 6450
-Connection ~ 12750 7100
-Wire Wire Line
-	12750 7100 13750 7100
-Connection ~ 12750 7750
-Wire Wire Line
-	12750 7750 13750 7750
-Connection ~ 13750 4500
-Wire Wire Line
-	13750 4500 14750 4500
-Connection ~ 13750 5150
-Wire Wire Line
-	13750 5150 14750 5150
-Connection ~ 13750 5800
-Wire Wire Line
-	13750 5800 14750 5800
-Connection ~ 13750 6450
-Wire Wire Line
-	13750 6450 14750 6450
-Connection ~ 13750 7100
-Wire Wire Line
-	13750 7100 14750 7100
-Connection ~ 13750 7750
-Wire Wire Line
-	13750 7750 14750 7750
-Connection ~ 14750 4500
-Wire Wire Line
-	14750 4500 15750 4500
-Connection ~ 14750 5150
-Wire Wire Line
-	14750 5150 15750 5150
-Connection ~ 14750 5800
-Wire Wire Line
-	14750 5800 15750 5800
-Connection ~ 14750 7100
-Wire Wire Line
-	14750 7100 15750 7100
-Connection ~ 14750 7750
-Wire Wire Line
-	14750 7750 15750 7750
 NoConn ~ 18550 2050
-Text GLabel 9700 1500 2    50   Input ~ 0
+Text GLabel 9700 1500 2    50   Output ~ 0
 col09
-Text GLabel 9700 1600 2    50   Input ~ 0
+Text GLabel 9700 1600 2    50   Output ~ 0
 col10
-Text GLabel 950  4500 0    50   Input ~ 0
+Text GLabel 950  4500 0    50   BiDi ~ 0
 row00
-Text GLabel 950  7750 0    50   Input ~ 0
+Text GLabel 950  7750 0    50   BiDi ~ 0
 row05
-Text GLabel 950  7100 0    50   Input ~ 0
+Text GLabel 950  7100 0    50   BiDi ~ 0
 row04
-Text GLabel 950  6450 0    50   Input ~ 0
+Text GLabel 950  6450 0    50   BiDi ~ 0
 row03
-Text GLabel 950  5800 0    50   Input ~ 0
+Text GLabel 950  5800 0    50   BiDi ~ 0
 row02
-Text GLabel 950  5150 0    50   Input ~ 0
+Text GLabel 950  5150 0    50   BiDi ~ 0
 row01
-Text GLabel 8200 1700 2    50   Input ~ 0
+Text GLabel 8200 1700 2    50   Output ~ 0
 col03
-Text GLabel 8200 1800 2    50   Input ~ 0
+Text GLabel 8200 1800 2    50   Output ~ 0
 col04
-Text GLabel 8200 1400 2    50   Input ~ 0
+Text GLabel 8200 1400 2    50   Output ~ 0
 col00
-Text GLabel 8200 1500 2    50   Input ~ 0
+Text GLabel 8200 1500 2    50   Output ~ 0
 col01
-Text GLabel 8200 1600 2    50   Input ~ 0
+Text GLabel 8200 1600 2    50   Output ~ 0
 col02
-$Comp
-L Simulation_SPICE:DIODE D88
-U 1 1 5E591DBD
-P 15750 6300
-F 0 "D88" V 15796 6380 50  0000 L CNN
-F 1 "DIODE" V 15705 6380 50  0000 L CNN
-F 2 "kbd:D3_TH_SMD" H 15750 6300 50  0001 C CNN
-F 3 "~" H 15750 6300 50  0001 C CNN
-F 4 "Y" H 15750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 15750 6300 50  0001 L CNN "Spice_Primitive"
-	1    15750 6300
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	15150 5500 15150 6150
-Connection ~ 15150 6150
-Wire Wire Line
-	15150 6150 15150 6800
-Wire Wire Line
-	15750 6450 14750 6450
-Connection ~ 14750 6450
 Text GLabel 15450 2450 0    50   Output ~ 0
 software_reset
-Text GLabel 9700 1700 2    50   Input ~ 0
+Text GLabel 9700 1700 2    50   Output ~ 0
 col11
 Text GLabel 5600 1750 2    50   Input ~ 0
 hardware_reset
-Wire Wire Line
-	7400 1600 7200 1600
-Wire Wire Line
-	8700 1600 8900 1600
-Wire Wire Line
-	8900 1700 8750 1700
-Wire Wire Line
-	7250 1700 7400 1700
-Wire Wire Line
-	8900 1900 8800 1900
-Wire Wire Line
-	7300 1900 7400 1900
-Wire Wire Line
-	8800 2850 7300 2850
-Wire Wire Line
-	7400 2000 7350 2000
-Wire Wire Line
-	7350 2900 8850 2900
-Wire Wire Line
-	8850 2000 8900 2000
 NoConn ~ 9700 2300
 NoConn ~ 9700 2100
 $Comp
@@ -2944,30 +1670,6 @@ Text GLabel 3000 2350 2    50   Input ~ 0
 row02
 Text GLabel 1600 2150 0    50   Input ~ 0
 software_reset
-Text GLabel 7050 1400 0    50   Input ~ 0
-SER
-Text GLabel 7050 1600 0    50   Input ~ 0
-SCK
-Text GLabel 7050 1700 0    50   Input ~ 0
-SCL
-Text GLabel 7050 1900 0    50   Input ~ 0
-RCK
-Text GLabel 7050 2000 0    50   Input ~ 0
-OE
-Wire Wire Line
-	7050 1400 7400 1400
-Wire Wire Line
-	7050 1600 7200 1600
-Connection ~ 7200 1600
-Wire Wire Line
-	7050 1700 7250 1700
-Connection ~ 7250 1700
-Wire Wire Line
-	7300 1900 7050 1900
-Connection ~ 7300 1900
-Wire Wire Line
-	7050 2000 7350 2000
-Connection ~ 7350 2000
 Text GLabel 1600 2350 0    50   Output ~ 0
 SCK
 Text GLabel 1600 2450 0    50   Output ~ 0
@@ -2987,17 +1689,6 @@ F 1 "GND" H 15855 1527 50  0000 C CNN
 F 2 "" H 15850 1700 50  0001 C CNN
 F 3 "" H 15850 1700 50  0001 C CNN
 	1    15850 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0102
-U 1 1 5ED321F4
-P 7050 2550
-F 0 "#PWR0102" H 7050 2400 50  0001 C CNN
-F 1 "VCC" H 7067 2723 50  0000 C CNN
-F 2 "" H 7050 2550 50  0001 C CNN
-F 3 "" H 7050 2550 50  0001 C CNN
-	1    7050 2550
 	1    0    0    -1  
 $EndComp
 Text GLabel 1600 1850 0    50   BiDi ~ 0
@@ -3038,26 +1729,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 9300 1800 50  0001 C CNN
 $EndComp
 Text GLabel 7800 2500 2    50   BiDi ~ 0
 GND
-Wire Wire Line
-	8850 2000 8850 2900
-Wire Wire Line
-	8800 1900 8800 2850
-Wire Wire Line
-	8750 1700 8750 2800
-Wire Wire Line
-	8700 1600 8700 2750
-Wire Wire Line
-	7200 1600 7200 2750
-Wire Wire Line
-	7250 1700 7250 2800
-Wire Wire Line
-	7200 2750 8700 2750
-Wire Wire Line
-	7300 1900 7300 2850
-Wire Wire Line
-	7250 2800 8750 2800
-Wire Wire Line
-	7350 2000 7350 2900
 $Comp
 L power:VCC #PWR03
 U 1 1 5E8916A7
@@ -3165,93 +1836,18 @@ Wire Wire Line
 	18800 3050 19050 3050
 Connection ~ 18800 3050
 NoConn ~ 19450 2950
-Text GLabel 13150 1800 2    50   Input ~ 0
-col12
-Text GLabel 13150 1900 2    50   Input ~ 0
-col13
-Text GLabel 11650 2100 2    50   Input ~ 0
-col07
-Text GLabel 13150 2000 2    50   Input ~ 0
-col14
-Text GLabel 13150 1400 2    50   Input ~ 0
-col08
-Text GLabel 11650 1900 2    50   Input ~ 0
-col05
-Text GLabel 11650 2000 2    50   Input ~ 0
-col06
-Text GLabel 13150 1500 2    50   Input ~ 0
-col09
-Text GLabel 13150 1600 2    50   Input ~ 0
-col10
-Text GLabel 11650 1700 2    50   Input ~ 0
-col03
-Text GLabel 11650 1800 2    50   Input ~ 0
-col04
-Text GLabel 11650 1400 2    50   Input ~ 0
-col00
-Text GLabel 11650 1500 2    50   Input ~ 0
-col01
-Text GLabel 11650 1600 2    50   Input ~ 0
-col02
-Text GLabel 13150 1700 2    50   Input ~ 0
-col11
-Wire Wire Line
-	10850 1600 10650 1600
-Wire Wire Line
-	12150 1600 12350 1600
-Wire Wire Line
-	12350 1700 12200 1700
-Wire Wire Line
-	10700 1700 10850 1700
-Wire Wire Line
-	12350 1900 12250 1900
-Wire Wire Line
-	10750 1900 10850 1900
-Wire Wire Line
-	12250 2850 10750 2850
-Wire Wire Line
-	10850 2000 10800 2000
-Wire Wire Line
-	10800 2900 12300 2900
-Wire Wire Line
-	12300 2000 12350 2000
 NoConn ~ 13150 2300
 NoConn ~ 13150 2100
-Text GLabel 10500 1400 0    50   Input ~ 0
+Text GLabel 10850 1400 0    50   Input ~ 0
 SER
-Text GLabel 10500 1600 0    50   Input ~ 0
+Text GLabel 10850 1600 0    50   Input ~ 0
 SCK
-Text GLabel 10500 1700 0    50   Input ~ 0
+Text GLabel 10850 1700 0    50   Input ~ 0
 SCL
-Text GLabel 10500 1900 0    50   Input ~ 0
+Text GLabel 10850 1900 0    50   Input ~ 0
 RCK
-Text GLabel 10500 2000 0    50   Input ~ 0
+Text GLabel 10850 2000 0    50   Input ~ 0
 OE
-Wire Wire Line
-	10500 1400 10850 1400
-Wire Wire Line
-	10500 1600 10650 1600
-Connection ~ 10650 1600
-Wire Wire Line
-	10500 1700 10700 1700
-Connection ~ 10700 1700
-Wire Wire Line
-	10750 1900 10500 1900
-Connection ~ 10750 1900
-Wire Wire Line
-	10500 2000 10800 2000
-Connection ~ 10800 2000
-$Comp
-L power:VCC #PWR0104
-U 1 1 5E58DED9
-P 10500 2550
-F 0 "#PWR0104" H 10500 2400 50  0001 C CNN
-F 1 "VCC" H 10517 2723 50  0000 C CNN
-F 2 "" H 10500 2550 50  0001 C CNN
-F 3 "" H 10500 2550 50  0001 C CNN
-	1    10500 2550
-	1    0    0    -1  
-$EndComp
 Text GLabel 11250 1200 2    50   BiDi ~ 0
 VCC
 $Comp
@@ -3267,6 +1863,1268 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 11250 1800 50  0001 C CNN
 $EndComp
 Text GLabel 12750 1200 2    50   BiDi ~ 0
 VCC
+Text GLabel 11250 2500 2    50   BiDi ~ 0
+GND
+Text GLabel 12750 2500 2    50   BiDi ~ 0
+GND
+Text GLabel 8900 1400 0    50   Input ~ 0
+QHSER
+Text GLabel 8200 2300 2    50   Output ~ 0
+QHSER
+Wire Wire Line
+	950  4500 1750 4500
+Connection ~ 2150 4200
+Connection ~ 3150 4200
+Connection ~ 4150 4200
+Connection ~ 5150 4200
+Connection ~ 6150 4200
+Connection ~ 7150 4200
+Connection ~ 8150 4200
+Connection ~ 9150 4200
+Connection ~ 10150 4200
+Connection ~ 11150 4200
+Connection ~ 12150 4200
+Connection ~ 13150 4200
+Connection ~ 14150 4200
+Connection ~ 15150 4200
+Connection ~ 1750 4500
+Wire Wire Line
+	1750 4500 2750 4500
+Connection ~ 2750 4500
+Wire Wire Line
+	2750 4500 3750 4500
+Connection ~ 3750 4500
+Wire Wire Line
+	3750 4500 4750 4500
+Connection ~ 4750 4500
+Wire Wire Line
+	4750 4500 5750 4500
+Connection ~ 5750 4500
+Wire Wire Line
+	5750 4500 6750 4500
+Connection ~ 6750 4500
+Wire Wire Line
+	6750 4500 7750 4500
+Connection ~ 7750 4500
+Wire Wire Line
+	7750 4500 8750 4500
+Connection ~ 8750 4500
+Wire Wire Line
+	8750 4500 9750 4500
+Connection ~ 9750 4500
+Wire Wire Line
+	9750 4500 10750 4500
+Connection ~ 10750 4500
+Wire Wire Line
+	10750 4500 11750 4500
+Connection ~ 11750 4500
+Wire Wire Line
+	11750 4500 12750 4500
+Connection ~ 12750 4500
+Wire Wire Line
+	12750 4500 13750 4500
+Connection ~ 13750 4500
+Wire Wire Line
+	13750 4500 14750 4500
+Connection ~ 14750 4500
+Wire Wire Line
+	14750 4500 15750 4500
+Wire Wire Line
+	15150 4850 15150 4200
+Wire Wire Line
+	14150 4850 14150 4200
+Wire Wire Line
+	13150 4850 13150 4200
+Wire Wire Line
+	12150 4850 12150 4200
+Wire Wire Line
+	11150 4850 11150 4200
+Wire Wire Line
+	10150 4850 10150 4200
+Wire Wire Line
+	9150 4850 9150 4200
+Wire Wire Line
+	8150 4850 8150 4200
+Wire Wire Line
+	7150 4850 7150 4200
+Wire Wire Line
+	6150 4850 6150 4200
+Wire Wire Line
+	5150 4850 5150 4200
+Wire Wire Line
+	4150 4850 4150 4200
+Wire Wire Line
+	3150 4850 3150 4200
+Wire Wire Line
+	2150 4850 2150 4200
+Wire Wire Line
+	950  5150 1750 5150
+Wire Wire Line
+	950  5800 1750 5800
+Wire Wire Line
+	950  6450 1750 6450
+Wire Wire Line
+	2150 4850 2150 5500
+Wire Wire Line
+	3150 4850 3150 5500
+Wire Wire Line
+	4150 4850 4150 5500
+Wire Wire Line
+	5150 4850 5150 5500
+Wire Wire Line
+	6150 4850 6150 5500
+Wire Wire Line
+	7150 4850 7150 5500
+Wire Wire Line
+	8150 4850 8150 5500
+Wire Wire Line
+	9150 4850 9150 5500
+Wire Wire Line
+	10150 4850 10150 5500
+Wire Wire Line
+	11150 4850 11150 5500
+Wire Wire Line
+	12150 4850 12150 5500
+Wire Wire Line
+	13150 4850 13150 5500
+Wire Wire Line
+	14150 4850 14150 5500
+Wire Wire Line
+	15150 4850 15150 5500
+Wire Wire Line
+	950  7100 1750 7100
+Wire Wire Line
+	950  7750 1750 7750
+Connection ~ 1750 7750
+Wire Wire Line
+	1750 7750 2750 7750
+Connection ~ 2750 7750
+Wire Wire Line
+	2750 7750 3750 7750
+Connection ~ 3750 7750
+Wire Wire Line
+	3750 7750 4750 7750
+Connection ~ 4750 7750
+Wire Wire Line
+	4750 7750 5750 7750
+Connection ~ 5750 7750
+Wire Wire Line
+	5750 7750 6750 7750
+Connection ~ 6750 7750
+Wire Wire Line
+	6750 7750 7750 7750
+Connection ~ 7750 7750
+Wire Wire Line
+	7750 7750 8750 7750
+Connection ~ 8750 7750
+Wire Wire Line
+	8750 7750 9750 7750
+Connection ~ 9750 7750
+Wire Wire Line
+	9750 7750 10750 7750
+Connection ~ 10750 7750
+Wire Wire Line
+	10750 7750 11750 7750
+Connection ~ 11750 7750
+Wire Wire Line
+	11750 7750 12750 7750
+Connection ~ 12750 7750
+Wire Wire Line
+	12750 7750 13750 7750
+Connection ~ 13750 7750
+Wire Wire Line
+	13750 7750 14750 7750
+Connection ~ 14750 7750
+Wire Wire Line
+	14750 7750 15750 7750
+Connection ~ 2150 4850
+Connection ~ 2150 5500
+Wire Wire Line
+	2150 5500 2150 6150
+Connection ~ 2150 6150
+Wire Wire Line
+	2150 6150 2150 6800
+Connection ~ 2150 6800
+Wire Wire Line
+	2150 6800 2150 7450
+Connection ~ 3150 4850
+Connection ~ 3150 5500
+Wire Wire Line
+	3150 5500 3150 6150
+Connection ~ 3150 6150
+Wire Wire Line
+	3150 6150 3150 6800
+Connection ~ 3150 6800
+Wire Wire Line
+	3150 6800 3150 7450
+Connection ~ 4150 4850
+Connection ~ 4150 5500
+Wire Wire Line
+	4150 5500 4150 6150
+Connection ~ 4150 6150
+Wire Wire Line
+	4150 6150 4150 6800
+Connection ~ 4150 6800
+Wire Wire Line
+	4150 6800 4150 7450
+Connection ~ 5150 4850
+Connection ~ 5150 5500
+Wire Wire Line
+	5150 5500 5150 6150
+Connection ~ 5150 6150
+Wire Wire Line
+	5150 6150 5150 6800
+Connection ~ 5150 6800
+Wire Wire Line
+	5150 6800 5150 7450
+Connection ~ 6150 4850
+Connection ~ 6150 5500
+Wire Wire Line
+	6150 5500 6150 6150
+Connection ~ 6150 6150
+Wire Wire Line
+	6150 6150 6150 6800
+Connection ~ 6150 6800
+Wire Wire Line
+	6150 6800 6150 7450
+Connection ~ 7150 4850
+Connection ~ 7150 5500
+Wire Wire Line
+	7150 5500 7150 6150
+Connection ~ 7150 6150
+Wire Wire Line
+	7150 6150 7150 6800
+Connection ~ 7150 6800
+Wire Wire Line
+	7150 6800 7150 7450
+Connection ~ 8150 4850
+Connection ~ 8150 5500
+Wire Wire Line
+	8150 5500 8150 6150
+Connection ~ 8150 6150
+Wire Wire Line
+	8150 6150 8150 6800
+Connection ~ 8150 6800
+Wire Wire Line
+	8150 6800 8150 7450
+Connection ~ 9150 4850
+Connection ~ 9150 5500
+Wire Wire Line
+	9150 5500 9150 6150
+Connection ~ 9150 6150
+Wire Wire Line
+	9150 6150 9150 6800
+Connection ~ 9150 6800
+Wire Wire Line
+	9150 6800 9150 7450
+Connection ~ 10150 4850
+Connection ~ 10150 5500
+Wire Wire Line
+	10150 5500 10150 6150
+Connection ~ 10150 6150
+Wire Wire Line
+	10150 6150 10150 6800
+Connection ~ 10150 6800
+Wire Wire Line
+	10150 6800 10150 7450
+Connection ~ 11150 4850
+Connection ~ 11150 5500
+Wire Wire Line
+	11150 5500 11150 6150
+Connection ~ 11150 6150
+Wire Wire Line
+	11150 6150 11150 6800
+Connection ~ 11150 6800
+Wire Wire Line
+	11150 6800 11150 7450
+Connection ~ 12150 4850
+Connection ~ 12150 5500
+Wire Wire Line
+	12150 5500 12150 6150
+Connection ~ 12150 6150
+Wire Wire Line
+	12150 6150 12150 6800
+Connection ~ 12150 6800
+Wire Wire Line
+	12150 6800 12150 7450
+Connection ~ 13150 4850
+Connection ~ 13150 5500
+Wire Wire Line
+	13150 5500 13150 6150
+Connection ~ 13150 6150
+Wire Wire Line
+	13150 6150 13150 6800
+Connection ~ 13150 6800
+Wire Wire Line
+	13150 6800 13150 7450
+Connection ~ 14150 4850
+Connection ~ 14150 5500
+Wire Wire Line
+	14150 5500 14150 6150
+Connection ~ 14150 6150
+Wire Wire Line
+	14150 6150 14150 6800
+Connection ~ 14150 6800
+Wire Wire Line
+	14150 6800 14150 7450
+Connection ~ 15150 4850
+Connection ~ 15150 5500
+Wire Wire Line
+	15150 5500 15150 6150
+Connection ~ 15150 6150
+Wire Wire Line
+	15150 6150 15150 6800
+Connection ~ 15150 6800
+Wire Wire Line
+	15150 6800 15150 7450
+$Comp
+L Simulation_SPICE:DIODE D88
+U 1 1 5E591DBD
+P 15750 6300
+F 0 "D88" V 15796 6380 50  0000 L CNN
+F 1 "DIODE" V 15705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 15750 6300 50  0001 C CNN
+F 3 "~" H 15750 6300 50  0001 C CNN
+F 4 "Y" H 15750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 15750 6300 50  0001 L CNN "Spice_Primitive"
+	1    15750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D89
+U 1 1 5E591DCB
+P 15750 6950
+F 0 "D89" V 15796 7030 50  0000 L CNN
+F 1 "DIODE" V 15705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 15750 6950 50  0001 C CNN
+F 3 "~" H 15750 6950 50  0001 C CNN
+F 4 "Y" H 15750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 15750 6950 50  0001 L CNN "Spice_Primitive"
+	1    15750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D83
+U 1 1 5E591D4B
+P 14750 6950
+F 0 "D83" V 14796 7030 50  0000 L CNN
+F 1 "DIODE" V 14705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 14750 6950 50  0001 C CNN
+F 3 "~" H 14750 6950 50  0001 C CNN
+F 4 "Y" H 14750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 14750 6950 50  0001 L CNN "Spice_Primitive"
+	1    14750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D77
+U 1 1 5E591CCB
+P 13750 6950
+F 0 "D77" V 13796 7030 50  0000 L CNN
+F 1 "DIODE" V 13705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 13750 6950 50  0001 C CNN
+F 3 "~" H 13750 6950 50  0001 C CNN
+F 4 "Y" H 13750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 13750 6950 50  0001 L CNN "Spice_Primitive"
+	1    13750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D71
+U 1 1 5E591C4B
+P 12750 6950
+F 0 "D71" V 12796 7030 50  0000 L CNN
+F 1 "DIODE" V 12705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 12750 6950 50  0001 C CNN
+F 3 "~" H 12750 6950 50  0001 C CNN
+F 4 "Y" H 12750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 12750 6950 50  0001 L CNN "Spice_Primitive"
+	1    12750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D65
+U 1 1 5E591BCB
+P 11750 6950
+F 0 "D65" V 11796 7030 50  0000 L CNN
+F 1 "DIODE" V 11705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 11750 6950 50  0001 C CNN
+F 3 "~" H 11750 6950 50  0001 C CNN
+F 4 "Y" H 11750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 11750 6950 50  0001 L CNN "Spice_Primitive"
+	1    11750 6950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D59
+U 1 1 5E591B4B
+P 10750 6950
+F 0 "D59" V 10796 7030 50  0000 L CNN
+F 1 "DIODE" V 10705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 10750 6950 50  0001 C CNN
+F 3 "~" H 10750 6950 50  0001 C CNN
+F 4 "Y" H 10750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 10750 6950 50  0001 L CNN "Spice_Primitive"
+	1    10750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D53
+U 1 1 5E591ACB
+P 9750 6950
+F 0 "D53" V 9796 7030 50  0000 L CNN
+F 1 "DIODE" V 9705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 9750 6950 50  0001 C CNN
+F 3 "~" H 9750 6950 50  0001 C CNN
+F 4 "Y" H 9750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 9750 6950 50  0001 L CNN "Spice_Primitive"
+	1    9750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D47
+U 1 1 5E549E35
+P 8750 6950
+F 0 "D47" V 8796 7030 50  0000 L CNN
+F 1 "DIODE" V 8705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 8750 6950 50  0001 C CNN
+F 3 "~" H 8750 6950 50  0001 C CNN
+F 4 "Y" H 8750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8750 6950 50  0001 L CNN "Spice_Primitive"
+	1    8750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D41
+U 1 1 5E549DB5
+P 7750 6950
+F 0 "D41" V 7796 7030 50  0000 L CNN
+F 1 "DIODE" V 7705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 7750 6950 50  0001 C CNN
+F 3 "~" H 7750 6950 50  0001 C CNN
+F 4 "Y" H 7750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 7750 6950 50  0001 L CNN "Spice_Primitive"
+	1    7750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D35
+U 1 1 5E538661
+P 6750 6950
+F 0 "D35" V 6796 7030 50  0000 L CNN
+F 1 "DIODE" V 6705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 6750 6950 50  0001 C CNN
+F 3 "~" H 6750 6950 50  0001 C CNN
+F 4 "Y" H 6750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6750 6950 50  0001 L CNN "Spice_Primitive"
+	1    6750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D29
+U 1 1 5E5385E1
+P 5750 6950
+F 0 "D29" V 5796 7030 50  0000 L CNN
+F 1 "DIODE" V 5705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 5750 6950 50  0001 C CNN
+F 3 "~" H 5750 6950 50  0001 C CNN
+F 4 "Y" H 5750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 5750 6950 50  0001 L CNN "Spice_Primitive"
+	1    5750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D23
+U 1 1 5E5296A5
+P 4750 6950
+F 0 "D23" V 4796 7030 50  0000 L CNN
+F 1 "DIODE" V 4705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 4750 6950 50  0001 C CNN
+F 3 "~" H 4750 6950 50  0001 C CNN
+F 4 "Y" H 4750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 4750 6950 50  0001 L CNN "Spice_Primitive"
+	1    4750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D17
+U 1 1 5E529625
+P 3750 6950
+F 0 "D17" V 3796 7030 50  0000 L CNN
+F 1 "DIODE" V 3705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 3750 6950 50  0001 C CNN
+F 3 "~" H 3750 6950 50  0001 C CNN
+F 4 "Y" H 3750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 3750 6950 50  0001 L CNN "Spice_Primitive"
+	1    3750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D11
+U 1 1 5E518A21
+P 2750 6950
+F 0 "D11" V 2796 7030 50  0000 L CNN
+F 1 "DIODE" V 2705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 2750 6950 50  0001 C CNN
+F 3 "~" H 2750 6950 50  0001 C CNN
+F 4 "Y" H 2750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 2750 6950 50  0001 L CNN "Spice_Primitive"
+	1    2750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D5
+U 1 1 5E4FCCC3
+P 1750 6950
+F 0 "D5" V 1796 7030 50  0000 L CNN
+F 1 "DIODE" V 1705 7030 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 1750 6950 50  0001 C CNN
+F 3 "~" H 1750 6950 50  0001 C CNN
+F 4 "Y" H 1750 6950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 1750 6950 50  0001 L CNN "Spice_Primitive"
+	1    1750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D87
+U 1 1 5E591DAF
+P 15750 5650
+F 0 "D87" V 15796 5730 50  0000 L CNN
+F 1 "DIODE" V 15705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 15750 5650 50  0001 C CNN
+F 3 "~" H 15750 5650 50  0001 C CNN
+F 4 "Y" H 15750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 15750 5650 50  0001 L CNN "Spice_Primitive"
+	1    15750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D86
+U 1 1 5E591DA1
+P 15750 5000
+F 0 "D86" V 15796 5080 50  0000 L CNN
+F 1 "DIODE" V 15705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 15750 5000 50  0001 C CNN
+F 3 "~" H 15750 5000 50  0001 C CNN
+F 4 "Y" H 15750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 15750 5000 50  0001 L CNN "Spice_Primitive"
+	1    15750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D82
+U 1 1 5E591D3D
+P 14750 6300
+F 0 "D82" V 14796 6380 50  0000 L CNN
+F 1 "DIODE" V 14705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 14750 6300 50  0001 C CNN
+F 3 "~" H 14750 6300 50  0001 C CNN
+F 4 "Y" H 14750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 14750 6300 50  0001 L CNN "Spice_Primitive"
+	1    14750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D81
+U 1 1 5E591D2F
+P 14750 5650
+F 0 "D81" V 14796 5730 50  0000 L CNN
+F 1 "DIODE" V 14705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 14750 5650 50  0001 C CNN
+F 3 "~" H 14750 5650 50  0001 C CNN
+F 4 "Y" H 14750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 14750 5650 50  0001 L CNN "Spice_Primitive"
+	1    14750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D80
+U 1 1 5E591D21
+P 14750 5000
+F 0 "D80" V 14796 5080 50  0000 L CNN
+F 1 "DIODE" V 14705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 14750 5000 50  0001 C CNN
+F 3 "~" H 14750 5000 50  0001 C CNN
+F 4 "Y" H 14750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 14750 5000 50  0001 L CNN "Spice_Primitive"
+	1    14750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D76
+U 1 1 5E591CBD
+P 13750 6300
+F 0 "D76" V 13796 6380 50  0000 L CNN
+F 1 "DIODE" V 13705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 13750 6300 50  0001 C CNN
+F 3 "~" H 13750 6300 50  0001 C CNN
+F 4 "Y" H 13750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 13750 6300 50  0001 L CNN "Spice_Primitive"
+	1    13750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D75
+U 1 1 5E591CAF
+P 13750 5650
+F 0 "D75" V 13796 5730 50  0000 L CNN
+F 1 "DIODE" V 13705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 13750 5650 50  0001 C CNN
+F 3 "~" H 13750 5650 50  0001 C CNN
+F 4 "Y" H 13750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 13750 5650 50  0001 L CNN "Spice_Primitive"
+	1    13750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D74
+U 1 1 5E591CA1
+P 13750 5000
+F 0 "D74" V 13796 5080 50  0000 L CNN
+F 1 "DIODE" V 13705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 13750 5000 50  0001 C CNN
+F 3 "~" H 13750 5000 50  0001 C CNN
+F 4 "Y" H 13750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 13750 5000 50  0001 L CNN "Spice_Primitive"
+	1    13750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D70
+U 1 1 5E591C3D
+P 12750 6300
+F 0 "D70" V 12796 6380 50  0000 L CNN
+F 1 "DIODE" V 12705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 12750 6300 50  0001 C CNN
+F 3 "~" H 12750 6300 50  0001 C CNN
+F 4 "Y" H 12750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 12750 6300 50  0001 L CNN "Spice_Primitive"
+	1    12750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D69
+U 1 1 5E591C2F
+P 12750 5650
+F 0 "D69" V 12796 5730 50  0000 L CNN
+F 1 "DIODE" V 12705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 12750 5650 50  0001 C CNN
+F 3 "~" H 12750 5650 50  0001 C CNN
+F 4 "Y" H 12750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 12750 5650 50  0001 L CNN "Spice_Primitive"
+	1    12750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D68
+U 1 1 5E591C21
+P 12750 5000
+F 0 "D68" V 12796 5080 50  0000 L CNN
+F 1 "DIODE" V 12705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 12750 5000 50  0001 C CNN
+F 3 "~" H 12750 5000 50  0001 C CNN
+F 4 "Y" H 12750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 12750 5000 50  0001 L CNN "Spice_Primitive"
+	1    12750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D64
+U 1 1 5E591BBD
+P 11750 6300
+F 0 "D64" V 11796 6380 50  0000 L CNN
+F 1 "DIODE" V 11705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 11750 6300 50  0001 C CNN
+F 3 "~" H 11750 6300 50  0001 C CNN
+F 4 "Y" H 11750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 11750 6300 50  0001 L CNN "Spice_Primitive"
+	1    11750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D63
+U 1 1 5E591BAF
+P 11750 5650
+F 0 "D63" V 11796 5730 50  0000 L CNN
+F 1 "DIODE" V 11705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 11750 5650 50  0001 C CNN
+F 3 "~" H 11750 5650 50  0001 C CNN
+F 4 "Y" H 11750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 11750 5650 50  0001 L CNN "Spice_Primitive"
+	1    11750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D62
+U 1 1 5E591BA1
+P 11750 5000
+F 0 "D62" V 11796 5080 50  0000 L CNN
+F 1 "DIODE" V 11705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 11750 5000 50  0001 C CNN
+F 3 "~" H 11750 5000 50  0001 C CNN
+F 4 "Y" H 11750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 11750 5000 50  0001 L CNN "Spice_Primitive"
+	1    11750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D58
+U 1 1 5E591B3D
+P 10750 6300
+F 0 "D58" V 10796 6380 50  0000 L CNN
+F 1 "DIODE" V 10705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 10750 6300 50  0001 C CNN
+F 3 "~" H 10750 6300 50  0001 C CNN
+F 4 "Y" H 10750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 10750 6300 50  0001 L CNN "Spice_Primitive"
+	1    10750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D57
+U 1 1 5E591B2F
+P 10750 5650
+F 0 "D57" V 10796 5730 50  0000 L CNN
+F 1 "DIODE" V 10705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 10750 5650 50  0001 C CNN
+F 3 "~" H 10750 5650 50  0001 C CNN
+F 4 "Y" H 10750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 10750 5650 50  0001 L CNN "Spice_Primitive"
+	1    10750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D56
+U 1 1 5E591B21
+P 10750 5000
+F 0 "D56" V 10796 5080 50  0000 L CNN
+F 1 "DIODE" V 10705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 10750 5000 50  0001 C CNN
+F 3 "~" H 10750 5000 50  0001 C CNN
+F 4 "Y" H 10750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 10750 5000 50  0001 L CNN "Spice_Primitive"
+	1    10750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D52
+U 1 1 5E591ABD
+P 9750 6300
+F 0 "D52" V 9796 6380 50  0000 L CNN
+F 1 "DIODE" V 9705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 9750 6300 50  0001 C CNN
+F 3 "~" H 9750 6300 50  0001 C CNN
+F 4 "Y" H 9750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 9750 6300 50  0001 L CNN "Spice_Primitive"
+	1    9750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D51
+U 1 1 5E591AAF
+P 9750 5650
+F 0 "D51" V 9796 5730 50  0000 L CNN
+F 1 "DIODE" V 9705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 9750 5650 50  0001 C CNN
+F 3 "~" H 9750 5650 50  0001 C CNN
+F 4 "Y" H 9750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 9750 5650 50  0001 L CNN "Spice_Primitive"
+	1    9750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D50
+U 1 1 5E591AA1
+P 9750 5000
+F 0 "D50" V 9796 5080 50  0000 L CNN
+F 1 "DIODE" V 9705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 9750 5000 50  0001 C CNN
+F 3 "~" H 9750 5000 50  0001 C CNN
+F 4 "Y" H 9750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 9750 5000 50  0001 L CNN "Spice_Primitive"
+	1    9750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D46
+U 1 1 5E549E27
+P 8750 6300
+F 0 "D46" V 8796 6380 50  0000 L CNN
+F 1 "DIODE" V 8705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 8750 6300 50  0001 C CNN
+F 3 "~" H 8750 6300 50  0001 C CNN
+F 4 "Y" H 8750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8750 6300 50  0001 L CNN "Spice_Primitive"
+	1    8750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D45
+U 1 1 5E549E19
+P 8750 5650
+F 0 "D45" V 8796 5730 50  0000 L CNN
+F 1 "DIODE" V 8705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 8750 5650 50  0001 C CNN
+F 3 "~" H 8750 5650 50  0001 C CNN
+F 4 "Y" H 8750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8750 5650 50  0001 L CNN "Spice_Primitive"
+	1    8750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D44
+U 1 1 5E549E0B
+P 8750 5000
+F 0 "D44" V 8796 5080 50  0000 L CNN
+F 1 "DIODE" V 8705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 8750 5000 50  0001 C CNN
+F 3 "~" H 8750 5000 50  0001 C CNN
+F 4 "Y" H 8750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8750 5000 50  0001 L CNN "Spice_Primitive"
+	1    8750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D40
+U 1 1 5E549DA7
+P 7750 6300
+F 0 "D40" V 7796 6380 50  0000 L CNN
+F 1 "DIODE" V 7705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 7750 6300 50  0001 C CNN
+F 3 "~" H 7750 6300 50  0001 C CNN
+F 4 "Y" H 7750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 7750 6300 50  0001 L CNN "Spice_Primitive"
+	1    7750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D39
+U 1 1 5E549D99
+P 7750 5650
+F 0 "D39" V 7796 5730 50  0000 L CNN
+F 1 "DIODE" V 7705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 7750 5650 50  0001 C CNN
+F 3 "~" H 7750 5650 50  0001 C CNN
+F 4 "Y" H 7750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 7750 5650 50  0001 L CNN "Spice_Primitive"
+	1    7750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D38
+U 1 1 5E549D8B
+P 7750 5000
+F 0 "D38" V 7796 5080 50  0000 L CNN
+F 1 "DIODE" V 7705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 7750 5000 50  0001 C CNN
+F 3 "~" H 7750 5000 50  0001 C CNN
+F 4 "Y" H 7750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 7750 5000 50  0001 L CNN "Spice_Primitive"
+	1    7750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D34
+U 1 1 5E538653
+P 6750 6300
+F 0 "D34" V 6796 6380 50  0000 L CNN
+F 1 "DIODE" V 6705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 6750 6300 50  0001 C CNN
+F 3 "~" H 6750 6300 50  0001 C CNN
+F 4 "Y" H 6750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6750 6300 50  0001 L CNN "Spice_Primitive"
+	1    6750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D33
+U 1 1 5E538645
+P 6750 5650
+F 0 "D33" V 6796 5730 50  0000 L CNN
+F 1 "DIODE" V 6705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 6750 5650 50  0001 C CNN
+F 3 "~" H 6750 5650 50  0001 C CNN
+F 4 "Y" H 6750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6750 5650 50  0001 L CNN "Spice_Primitive"
+	1    6750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D32
+U 1 1 5E538637
+P 6750 5000
+F 0 "D32" V 6796 5080 50  0000 L CNN
+F 1 "DIODE" V 6705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 6750 5000 50  0001 C CNN
+F 3 "~" H 6750 5000 50  0001 C CNN
+F 4 "Y" H 6750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6750 5000 50  0001 L CNN "Spice_Primitive"
+	1    6750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D28
+U 1 1 5E5385D3
+P 5750 6300
+F 0 "D28" V 5796 6380 50  0000 L CNN
+F 1 "DIODE" V 5705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 5750 6300 50  0001 C CNN
+F 3 "~" H 5750 6300 50  0001 C CNN
+F 4 "Y" H 5750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 5750 6300 50  0001 L CNN "Spice_Primitive"
+	1    5750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D27
+U 1 1 5E5385C5
+P 5750 5650
+F 0 "D27" V 5796 5730 50  0000 L CNN
+F 1 "DIODE" V 5705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 5750 5650 50  0001 C CNN
+F 3 "~" H 5750 5650 50  0001 C CNN
+F 4 "Y" H 5750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 5750 5650 50  0001 L CNN "Spice_Primitive"
+	1    5750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D26
+U 1 1 5E5385B7
+P 5750 5000
+F 0 "D26" V 5796 5080 50  0000 L CNN
+F 1 "DIODE" V 5705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 5750 5000 50  0001 C CNN
+F 3 "~" H 5750 5000 50  0001 C CNN
+F 4 "Y" H 5750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 5750 5000 50  0001 L CNN "Spice_Primitive"
+	1    5750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D22
+U 1 1 5E529697
+P 4750 6300
+F 0 "D22" V 4796 6380 50  0000 L CNN
+F 1 "DIODE" V 4705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 4750 6300 50  0001 C CNN
+F 3 "~" H 4750 6300 50  0001 C CNN
+F 4 "Y" H 4750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 4750 6300 50  0001 L CNN "Spice_Primitive"
+	1    4750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D21
+U 1 1 5E529689
+P 4750 5650
+F 0 "D21" V 4796 5730 50  0000 L CNN
+F 1 "DIODE" V 4705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 4750 5650 50  0001 C CNN
+F 3 "~" H 4750 5650 50  0001 C CNN
+F 4 "Y" H 4750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 4750 5650 50  0001 L CNN "Spice_Primitive"
+	1    4750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D20
+U 1 1 5E52967B
+P 4750 5000
+F 0 "D20" V 4796 5080 50  0000 L CNN
+F 1 "DIODE" V 4705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 4750 5000 50  0001 C CNN
+F 3 "~" H 4750 5000 50  0001 C CNN
+F 4 "Y" H 4750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 4750 5000 50  0001 L CNN "Spice_Primitive"
+	1    4750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D16
+U 1 1 5E529617
+P 3750 6300
+F 0 "D16" V 3796 6380 50  0000 L CNN
+F 1 "DIODE" V 3705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 3750 6300 50  0001 C CNN
+F 3 "~" H 3750 6300 50  0001 C CNN
+F 4 "Y" H 3750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 3750 6300 50  0001 L CNN "Spice_Primitive"
+	1    3750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D15
+U 1 1 5E529609
+P 3750 5650
+F 0 "D15" V 3796 5730 50  0000 L CNN
+F 1 "DIODE" V 3705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 3750 5650 50  0001 C CNN
+F 3 "~" H 3750 5650 50  0001 C CNN
+F 4 "Y" H 3750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 3750 5650 50  0001 L CNN "Spice_Primitive"
+	1    3750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D14
+U 1 1 5E5295FB
+P 3750 5000
+F 0 "D14" V 3796 5080 50  0000 L CNN
+F 1 "DIODE" V 3705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 3750 5000 50  0001 C CNN
+F 3 "~" H 3750 5000 50  0001 C CNN
+F 4 "Y" H 3750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 3750 5000 50  0001 L CNN "Spice_Primitive"
+	1    3750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D10
+U 1 1 5E518A13
+P 2750 6300
+F 0 "D10" V 2796 6380 50  0000 L CNN
+F 1 "DIODE" V 2705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 2750 6300 50  0001 C CNN
+F 3 "~" H 2750 6300 50  0001 C CNN
+F 4 "Y" H 2750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 2750 6300 50  0001 L CNN "Spice_Primitive"
+	1    2750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D9
+U 1 1 5E518A05
+P 2750 5650
+F 0 "D9" V 2796 5730 50  0000 L CNN
+F 1 "DIODE" V 2705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 2750 5650 50  0001 C CNN
+F 3 "~" H 2750 5650 50  0001 C CNN
+F 4 "Y" H 2750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 2750 5650 50  0001 L CNN "Spice_Primitive"
+	1    2750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D8
+U 1 1 5E5189F7
+P 2750 5000
+F 0 "D8" V 2796 5080 50  0000 L CNN
+F 1 "DIODE" V 2705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 2750 5000 50  0001 C CNN
+F 3 "~" H 2750 5000 50  0001 C CNN
+F 4 "Y" H 2750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 2750 5000 50  0001 L CNN "Spice_Primitive"
+	1    2750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D4
+U 1 1 5E4F970F
+P 1750 6300
+F 0 "D4" V 1796 6380 50  0000 L CNN
+F 1 "DIODE" V 1705 6380 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 1750 6300 50  0001 C CNN
+F 3 "~" H 1750 6300 50  0001 C CNN
+F 4 "Y" H 1750 6300 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 1750 6300 50  0001 L CNN "Spice_Primitive"
+	1    1750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D3
+U 1 1 5E4F9701
+P 1750 5650
+F 0 "D3" V 1796 5730 50  0000 L CNN
+F 1 "DIODE" V 1705 5730 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 1750 5650 50  0001 C CNN
+F 3 "~" H 1750 5650 50  0001 C CNN
+F 4 "Y" H 1750 5650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 1750 5650 50  0001 L CNN "Spice_Primitive"
+	1    1750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D2
+U 1 1 5E4F4DE9
+P 1750 5000
+F 0 "D2" V 1796 5080 50  0000 L CNN
+F 1 "DIODE" V 1705 5080 50  0000 L CNN
+F 2 "kbd:D3_TH_SMD" H 1750 5000 50  0001 C CNN
+F 3 "~" H 1750 5000 50  0001 C CNN
+F 4 "Y" H 1750 5000 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 1750 5000 50  0001 L CNN "Spice_Primitive"
+	1    1750 5000
+	0    1    1    0   
+$EndComp
+Connection ~ 1750 7100
+Wire Wire Line
+	1750 7100 2750 7100
+Connection ~ 2750 7100
+Wire Wire Line
+	2750 7100 3750 7100
+Connection ~ 3750 7100
+Wire Wire Line
+	3750 7100 4750 7100
+Connection ~ 4750 7100
+Wire Wire Line
+	4750 7100 5750 7100
+Connection ~ 5750 7100
+Wire Wire Line
+	5750 7100 6750 7100
+Connection ~ 6750 7100
+Wire Wire Line
+	6750 7100 7750 7100
+Connection ~ 7750 7100
+Wire Wire Line
+	7750 7100 8750 7100
+Connection ~ 8750 7100
+Wire Wire Line
+	8750 7100 9750 7100
+Connection ~ 9750 7100
+Wire Wire Line
+	9750 7100 10750 7100
+Connection ~ 10750 7100
+Wire Wire Line
+	10750 7100 11750 7100
+Connection ~ 11750 7100
+Wire Wire Line
+	11750 7100 12750 7100
+Connection ~ 12750 7100
+Wire Wire Line
+	12750 7100 13750 7100
+Connection ~ 13750 7100
+Wire Wire Line
+	13750 7100 14750 7100
+Connection ~ 14750 7100
+Wire Wire Line
+	14750 7100 15750 7100
+Connection ~ 1750 6450
+Wire Wire Line
+	1750 6450 2750 6450
+Connection ~ 2750 6450
+Wire Wire Line
+	2750 6450 3750 6450
+Connection ~ 3750 6450
+Wire Wire Line
+	3750 6450 4750 6450
+Connection ~ 4750 6450
+Wire Wire Line
+	4750 6450 5750 6450
+Connection ~ 5750 6450
+Wire Wire Line
+	5750 6450 6750 6450
+Connection ~ 6750 6450
+Wire Wire Line
+	6750 6450 7750 6450
+Connection ~ 7750 6450
+Wire Wire Line
+	7750 6450 8750 6450
+Connection ~ 8750 6450
+Wire Wire Line
+	8750 6450 9750 6450
+Connection ~ 9750 6450
+Wire Wire Line
+	9750 6450 10750 6450
+Connection ~ 10750 6450
+Wire Wire Line
+	10750 6450 11750 6450
+Connection ~ 11750 6450
+Wire Wire Line
+	11750 6450 12750 6450
+Connection ~ 12750 6450
+Wire Wire Line
+	12750 6450 13750 6450
+Connection ~ 13750 6450
+Wire Wire Line
+	13750 6450 14750 6450
+Connection ~ 14750 6450
+Wire Wire Line
+	14750 6450 15750 6450
+Connection ~ 1750 5800
+Wire Wire Line
+	1750 5800 2750 5800
+Connection ~ 2750 5800
+Wire Wire Line
+	2750 5800 3750 5800
+Connection ~ 3750 5800
+Wire Wire Line
+	3750 5800 4750 5800
+Connection ~ 4750 5800
+Wire Wire Line
+	4750 5800 5750 5800
+Connection ~ 5750 5800
+Wire Wire Line
+	5750 5800 6750 5800
+Connection ~ 6750 5800
+Wire Wire Line
+	6750 5800 7750 5800
+Connection ~ 7750 5800
+Wire Wire Line
+	7750 5800 8750 5800
+Connection ~ 8750 5800
+Wire Wire Line
+	8750 5800 9750 5800
+Connection ~ 9750 5800
+Wire Wire Line
+	9750 5800 10750 5800
+Connection ~ 10750 5800
+Wire Wire Line
+	10750 5800 11750 5800
+Connection ~ 11750 5800
+Wire Wire Line
+	11750 5800 12750 5800
+Connection ~ 12750 5800
+Wire Wire Line
+	12750 5800 13750 5800
+Connection ~ 13750 5800
+Wire Wire Line
+	13750 5800 14750 5800
+Connection ~ 14750 5800
+Wire Wire Line
+	14750 5800 15750 5800
+Connection ~ 1750 5150
+Wire Wire Line
+	1750 5150 2750 5150
+Connection ~ 2750 5150
+Wire Wire Line
+	2750 5150 3750 5150
+Connection ~ 3750 5150
+Wire Wire Line
+	3750 5150 4750 5150
+Connection ~ 4750 5150
+Wire Wire Line
+	4750 5150 5750 5150
+Connection ~ 5750 5150
+Wire Wire Line
+	5750 5150 6750 5150
+Connection ~ 6750 5150
+Wire Wire Line
+	6750 5150 7750 5150
+Connection ~ 7750 5150
+Wire Wire Line
+	7750 5150 8750 5150
+Connection ~ 8750 5150
+Wire Wire Line
+	8750 5150 9750 5150
+Connection ~ 9750 5150
+Wire Wire Line
+	9750 5150 10750 5150
+Connection ~ 10750 5150
+Wire Wire Line
+	10750 5150 11750 5150
+Connection ~ 11750 5150
+Wire Wire Line
+	11750 5150 12750 5150
+Connection ~ 12750 5150
+Wire Wire Line
+	12750 5150 13750 5150
+Connection ~ 13750 5150
+Wire Wire Line
+	13750 5150 14750 5150
+Connection ~ 14750 5150
+Wire Wire Line
+	14750 5150 15750 5150
 $Comp
 L 74xx:74HC595 U6
 U 1 1 5E58DEE8
@@ -3278,36 +3136,64 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 12750 1800 50  0001 C CNN
 	1    12750 1800
 	1    0    0    -1  
 $EndComp
-Text GLabel 11250 2500 2    50   BiDi ~ 0
-GND
-Wire Wire Line
-	12300 2000 12300 2900
-Wire Wire Line
-	12250 1900 12250 2850
-Wire Wire Line
-	12200 1700 12200 2800
-Wire Wire Line
-	12150 1600 12150 2750
-Wire Wire Line
-	10650 1600 10650 2750
-Wire Wire Line
-	10700 1700 10700 2800
-Wire Wire Line
-	10650 2750 12150 2750
-Wire Wire Line
-	10750 1900 10750 2850
-Wire Wire Line
-	10700 2800 12200 2800
-Wire Wire Line
-	10800 2000 10800 2900
-Text GLabel 12750 2500 2    50   BiDi ~ 0
-GND
-Text GLabel 8900 1400 0    50   Input ~ 0
-QHSER
-Text GLabel 8200 2300 2    50   Output ~ 0
-QHSER
-Text GLabel 12350 1400 0    50   Input ~ 0
-QHSER
+Text GLabel 7400 2000 0    50   Input ~ 0
+OE
+Text GLabel 7400 1900 0    50   Input ~ 0
+RCK
+Text GLabel 7400 1700 0    50   Input ~ 0
+SCL
+Text GLabel 7400 1600 0    50   Input ~ 0
+SCK
+Text GLabel 7400 1400 0    50   Input ~ 0
+SER
+Text GLabel 8900 1600 0    50   Input ~ 0
+SCK
+Text GLabel 8900 1700 0    50   Input ~ 0
+SCL
+Text GLabel 8900 1900 0    50   Input ~ 0
+RCK
+Text GLabel 8900 2000 0    50   Input ~ 0
+OE
+Text GLabel 12350 1600 0    50   Input ~ 0
+SCK
+Text GLabel 12350 1700 0    50   Input ~ 0
+SCL
+Text GLabel 12350 1900 0    50   Input ~ 0
+RCK
+Text GLabel 12350 2000 0    50   Input ~ 0
+OE
+Text GLabel 13150 1800 2    50   Output ~ 0
+col12
+Text GLabel 13150 1900 2    50   Output ~ 0
+col13
+Text GLabel 13150 2000 2    50   Output ~ 0
+col14
+Text GLabel 13150 1400 2    50   Output ~ 0
+col08
+Text GLabel 13150 1500 2    50   Output ~ 0
+col09
+Text GLabel 13150 1600 2    50   Output ~ 0
+col10
+Text GLabel 13150 1700 2    50   Output ~ 0
+col11
+Text GLabel 11650 2100 2    50   Output ~ 0
+col07
+Text GLabel 11650 1900 2    50   Output ~ 0
+col05
+Text GLabel 11650 2000 2    50   Output ~ 0
+col06
+Text GLabel 11650 1700 2    50   Output ~ 0
+col03
+Text GLabel 11650 1800 2    50   Output ~ 0
+col04
+Text GLabel 11650 1400 2    50   Output ~ 0
+col00
+Text GLabel 11650 1500 2    50   Output ~ 0
+col01
+Text GLabel 11650 1600 2    50   Output ~ 0
+col02
 Text GLabel 11650 2300 2    50   Output ~ 0
-QHSER
+QHSER'
+Text GLabel 12350 1400 0    50   Input ~ 0
+QHSER'
 $EndSCHEMATC
