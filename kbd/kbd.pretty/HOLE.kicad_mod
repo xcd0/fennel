@@ -1,11 +1,11 @@
-(module HOLE (layer F.Cu) (tedit 5CC0625B)
+(module HOLE (layer F.Cu) (tedit 5E569D35)
   (descr "Mounting Hole 2.2mm, no annular, M2")
   (tags "mounting hole 2.2mm no annular m2")
   (attr virtual)
-  (fp_text reference Ref** (at 0 -3.2) (layer F.Fab)
+  (fp_text reference Ref** (at 0 -3.2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Val** (at 0 3.2) (layer F.Fab)
+  (fp_text value Val** (at 0 3.2) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user %R (at 0.3 0) (layer F.Fab)
