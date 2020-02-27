@@ -1,4 +1,4 @@
-(module ResetSW (layer F.Cu) (tedit 5E57EE8C)
+(module ResetSW_edit (layer F.Cu) (tedit 5E57EE8C)
   (fp_text reference RSW1 (at 0 2.55) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
