@@ -1,0 +1,12 @@
+(module case_caver (layer F.Cu) (tedit 5E59075D)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value case_caver (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 0 0) (end 30.94258 0) (layer Eco1.User) (width 0.12))
+  (fp_line (start 0 0) (end -0.008645 -103.480046) (layer Eco1.User) (width 0.12))
+  (fp_arc (start -145.924933 -5.079175) (end 31 0) (angle -34.4) (layer Eco1.User) (width 0.12))
+  (fp_arc (start -2.5 -97.750363) (end 2.926425 -100.84714) (angle -36.8) (layer Eco1.User) (width 0.12))
+)
