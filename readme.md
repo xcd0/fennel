@@ -129,5 +129,6 @@ qmkでもよいがとりあえず動作確認にarduinoを使う。
 https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide#installing-windows
 https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/hardware-overview-pro-micro
 
+![](https://make.kosakalab.com/.blog/wp-content/uploads/2016/07/Pro_Micro.png)
 
 
