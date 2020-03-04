@@ -106,16 +106,10 @@ Text GLabel 7200 1950 2    50   Input ~ 0
 row02
 Text GLabel 5800 1750 0    50   Input ~ 0
 software_reset
-Text GLabel 5800 1950 0    50   Output ~ 0
-SCK
-Text GLabel 5800 2050 0    50   Output ~ 0
-SCL
 Text GLabel 5800 2150 0    50   Output ~ 0
 RCK
 Text GLabel 5800 2250 0    50   Output ~ 0
 OE
-Text GLabel 5800 1850 0    50   Output ~ 0
-SER
 Text GLabel 5800 1450 0    50   BiDi ~ 0
 GND
 Text GLabel 5800 1350 0    50   BiDi ~ 0
@@ -124,25 +118,20 @@ Text GLabel 7200 1250 2    50   BiDi ~ 0
 GND
 Text GLabel 7200 1450 2    50   BiDi ~ 0
 VCC
-Text GLabel 10150 2050 1    50   BiDi ~ 0
-GND
 Text GLabel 3200 1300 2    50   Input ~ 0
 hardware_reset
 NoConn ~ 5800 1150
-NoConn ~ 5800 1250
 NoConn ~ 5800 1550
 NoConn ~ 5800 1650
 NoConn ~ 7200 1150
 NoConn ~ 7200 1550
 NoConn ~ 7200 1650
 NoConn ~ 1800 1100
-NoConn ~ 1800 1200
 NoConn ~ 1800 1500
 NoConn ~ 1800 1600
 NoConn ~ 3200 1100
 NoConn ~ 3200 1500
 NoConn ~ 3200 1600
-NoConn ~ 6150 1250
 Text GLabel 6100 3100 0    50   Input ~ 0
 SER
 Text GLabel 6100 3300 0    50   Input ~ 0
@@ -258,17 +247,6 @@ F 1 "74HC595" H 6500 4190 50  0000 C CNN
 F 2 "kbd:SN74HC595_DIP-16_W7.62mm_Socket_2" H 6500 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6500 3500 50  0001 C CNN
 	1    6500 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L fan-rescue:ProMicro-kbd U2
-U 1 1 5F04E687
-P 6500 1900
-F 0 "U2" H 6500 2937 60  0000 C CNN
-F 1 "ProMicro" H 6500 2831 60  0000 C CNN
-F 2 "kbd:ProMicro_v3.6" H 6600 850 60  0001 C CNN
-F 3 "" H 6600 850 60  0000 C CNN
-	1    6500 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -400,7 +378,7 @@ U 1 1 5E7167F8
 P 2350 10650
 F 0 "SW5" H 2367 10327 50  0000 C CNN
 F 1 "SW_PUSH-kbd" H 2367 10236 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap_edit" H 2350 10650 50  0001 C CNN
+F 2 "kbd:ResetSW_with_diode" H 2350 10650 50  0001 C CNN
 F 3 "" H 2350 10650 50  0000 C CNN
 	1    2350 10650
 	1    0    0    -1  
@@ -469,7 +447,7 @@ U 1 1 5E71B554
 P 3350 10650
 F 0 "SW10" H 3367 10327 50  0000 C CNN
 F 1 "SW_PUSH-kbd" H 3367 10236 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap_edit" H 3350 10650 50  0001 C CNN
+F 2 "kbd:ResetSW_with_diode" H 3350 10650 50  0001 C CNN
 F 3 "" H 3350 10650 50  0000 C CNN
 	1    3350 10650
 	1    0    0    -1  
@@ -524,7 +502,7 @@ U 1 1 5E71BFAE
 P 4350 10650
 F 0 "SW15" H 4367 10327 50  0000 C CNN
 F 1 "SW_PUSH-kbd" H 4367 10236 50  0000 C CNN
-F 2 "kbd:CherryMX_MidHeight_Hotswap_edit" H 4350 10650 50  0001 C CNN
+F 2 "kbd:ResetSW_with_diode" H 4350 10650 50  0001 C CNN
 F 3 "" H 4350 10650 50  0000 C CNN
 	1    4350 10650
 	1    0    0    -1  
@@ -1012,4 +990,55 @@ Wire Wire Line
 Connection ~ 8650 8400
 Wire Wire Line
 	8650 8400 7650 8400
+Text GLabel 10150 2050 1    50   BiDi ~ 0
+GND
+Text GLabel 10800 3500 3    50   BiDi ~ 0
+GND
+Text GLabel 10800 3050 1    50   BiDi ~ 0
+VCC
+NoConn ~ 10500 3200
+$Comp
+L kbd:MJ-4PP-9 J1
+U 1 1 5E87BED1
+P 10300 3300
+F 0 "J1" H 10331 3576 50  0000 C CNN
+F 1 "MJ-4PP-9" H 10331 3485 50  0000 C CNN
+F 2 "kbd:MJ-4PP-9" H 10575 3525 50  0001 C CNN
+F 3 "~" H 10575 3525 50  0001 C CNN
+	1    10300 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 3250 10800 3250
+Wire Wire Line
+	10800 3250 10800 3050
+Wire Wire Line
+	10500 3300 10800 3300
+Wire Wire Line
+	10800 3300 10800 3500
+Wire Wire Line
+	10500 3350 11000 3350
+Text GLabel 11000 3350 2    50   BiDi ~ 0
+data
+Text GLabel 5800 1250 0    50   BiDi ~ 0
+data
+$Comp
+L fan-rescue:ProMicro-kbd U2
+U 1 1 5F04E687
+P 6500 1900
+F 0 "U2" H 6500 2937 60  0000 C CNN
+F 1 "ProMicro" H 6500 2831 60  0000 C CNN
+F 2 "kbd:ProMicro_v3.6" H 6600 850 60  0001 C CNN
+F 3 "" H 6600 850 60  0000 C CNN
+	1    6500 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 1200 0    50   BiDi ~ 0
+data
+Text GLabel 5800 1950 0    50   Output ~ 0
+SCK
+Text GLabel 5800 2050 0    50   Output ~ 0
+SCL
+Text GLabel 5800 1850 0    50   Output ~ 0
+SER
 $EndSCHEMATC
