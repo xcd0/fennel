@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name kbd)(type KiCad)(uri ../kbd/kbd.pretty)(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri ../keyboard_parts.pretty)(options "")(descr ""))
+  (lib (name BluePill_breakouts)(type KiCad)(uri C:/msys64/home/xcd0/fan/fan/BluePill_breakouts.pretty)(options "")(descr ""))
 )

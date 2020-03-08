@@ -23,7 +23,7 @@ fan90のPCB、アクリルケースの発注が終わった。暇。この間に
 
 ## 以下古いバージョン
 
-<details>
+<ピンヘッダ用接続ケーブルdetails>
 <summary>v1 fan90 片手用フルキーボード</summary>
 
 ## one hand keyboard fan90
