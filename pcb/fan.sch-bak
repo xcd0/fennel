@@ -30,11 +30,11 @@ col06
 Text GLabel 9050 7700 1    50   BiDi ~ 0
 col07
 NoConn ~ 7100 0   
-Text GLabel 2900 3750 2    50   Output ~ 0
+Text GLabel 4350 3300 2    50   Output ~ 0
 col07
-Text GLabel 2900 3550 2    50   Output ~ 0
+Text GLabel 4350 3100 2    50   Output ~ 0
 col05
-Text GLabel 2900 3650 2    50   Output ~ 0
+Text GLabel 4350 3200 2    50   Output ~ 0
 col06
 Text GLabel 1850 8400 0    50   BiDi ~ 0
 row00
@@ -46,132 +46,376 @@ Text GLabel 1850 9650 0    50   BiDi ~ 0
 row02
 Text GLabel 1850 9000 0    50   BiDi ~ 0
 row01
-Text GLabel 2900 3350 2    50   Output ~ 0
+Text GLabel 4350 2900 2    50   Output ~ 0
 col03
-Text GLabel 2900 3450 2    50   Output ~ 0
+Text GLabel 4350 3000 2    50   Output ~ 0
 col04
-Text GLabel 2900 3050 2    50   Output ~ 0
-col00
-Text GLabel 2900 3150 2    50   Output ~ 0
+Text GLabel 4350 2500 2    50   Output ~ 0
 col01
-Text GLabel 2900 3250 2    50   Output ~ 0
+Text GLabel 4350 2800 2    50   Output ~ 0
 col02
-Text GLabel 7200 1350 2    50   Input ~ 0
-hardware_reset
-Text GLabel 3200 2100 2    50   Input ~ 0
+Text GLabel 4350 2200 2    50   Input ~ 0
 row04
-Text GLabel 3200 2000 2    50   Input ~ 0
+Text GLabel 4350 2100 2    50   Input ~ 0
 row03
-Text GLabel 3200 1700 2    50   Input ~ 0
+Text GLabel 4350 1800 2    50   Input ~ 0
 row00
-Text GLabel 3200 1800 2    50   Input ~ 0
+Text GLabel 4350 1900 2    50   Input ~ 0
 row01
-Text GLabel 3200 1900 2    50   Input ~ 0
+Text GLabel 4350 2000 2    50   Input ~ 0
 row02
-Text GLabel 1800 1700 0    50   Input ~ 0
+Text GLabel 2600 2700 0    50   Input ~ 0
 software_reset
-Text GLabel 1800 1900 0    50   Output ~ 0
-SCK
-Text GLabel 1800 2000 0    50   Output ~ 0
-SCL
-Text GLabel 1800 2100 0    50   Output ~ 0
-RCK
-Text GLabel 1800 2200 0    50   Output ~ 0
-OE
-Text GLabel 1800 1800 0    50   Output ~ 0
-SER
-Text GLabel 1800 1400 0    50   BiDi ~ 0
-GND
-Text GLabel 1800 1300 0    50   BiDi ~ 0
-GND
-Text GLabel 3200 1200 2    50   BiDi ~ 0
-GND
 Text GLabel 10150 1200 3    50   BiDi ~ 0
 VCC
-Text GLabel 3200 1400 2    50   BiDi ~ 0
-VCC
-Text GLabel 2500 2850 2    50   BiDi ~ 0
-VCC
-Text GLabel 2500 4150 2    50   BiDi ~ 0
+Text GLabel 4350 1600 2    50   BiDi ~ 0
 GND
-Text GLabel 7200 2150 2    50   Input ~ 0
-row04
-Text GLabel 7200 2050 2    50   Input ~ 0
-row03
-Text GLabel 7200 1750 2    50   Input ~ 0
-row00
-Text GLabel 7200 1850 2    50   Input ~ 0
-row01
-Text GLabel 7200 1950 2    50   Input ~ 0
-row02
-Text GLabel 5800 1750 0    50   Input ~ 0
-software_reset
-Text GLabel 5800 2150 0    50   Output ~ 0
-RCK
-Text GLabel 5800 2250 0    50   Output ~ 0
-OE
-Text GLabel 5800 1450 0    50   BiDi ~ 0
-GND
-Text GLabel 5800 1350 0    50   BiDi ~ 0
-GND
-Text GLabel 7200 1250 2    50   BiDi ~ 0
-GND
-Text GLabel 7200 1450 2    50   BiDi ~ 0
-VCC
-Text GLabel 3200 1300 2    50   Input ~ 0
+Text GLabel 2600 3100 0    50   Input ~ 0
 hardware_reset
-NoConn ~ 5800 1150
-NoConn ~ 5800 1550
-NoConn ~ 5800 1650
-NoConn ~ 7200 1150
-NoConn ~ 7200 1550
-NoConn ~ 7200 1650
-NoConn ~ 1800 1100
-NoConn ~ 1800 1500
-NoConn ~ 1800 1600
-NoConn ~ 3200 1100
-NoConn ~ 3200 1500
-NoConn ~ 3200 1600
-Text GLabel 6100 3100 0    50   Input ~ 0
-SER
-Text GLabel 6100 3300 0    50   Input ~ 0
-SCK
-Text GLabel 6100 3400 0    50   Input ~ 0
-SCL
-Text GLabel 6100 3600 0    50   Input ~ 0
-RCK
-Text GLabel 6100 3700 0    50   Input ~ 0
-OE
-Text GLabel 6500 2900 2    50   BiDi ~ 0
-VCC
-Text GLabel 6500 4200 2    50   BiDi ~ 0
+Text GLabel 10750 4800 0    50   Output ~ 0
+software_reset
+Text GLabel 10800 5750 0    50   Output ~ 0
+hardware_reset
+Wire Wire Line
+	2050 7700 2050 8100
+Wire Wire Line
+	1850 10950 2650 10950
+Connection ~ 2050 8100
+Wire Wire Line
+	2050 8100 2050 8700
+Wire Wire Line
+	3050 7700 3050 8100
+Wire Wire Line
+	4050 7700 4050 8100
+Wire Wire Line
+	5050 7700 5050 8100
+Wire Wire Line
+	6050 7700 6050 8100
+Wire Wire Line
+	7050 7700 7050 8100
+Wire Wire Line
+	8050 7700 8050 8100
+Wire Wire Line
+	9050 7700 9050 8100
+Connection ~ 2650 10950
+Wire Wire Line
+	2650 10950 3650 10950
+Connection ~ 3650 10950
+Wire Wire Line
+	3650 10950 4650 10950
+Connection ~ 4650 10950
+Wire Wire Line
+	4650 10950 5650 10950
+Connection ~ 5650 10950
+Wire Wire Line
+	5650 10950 6650 10950
+Connection ~ 6650 10950
+Wire Wire Line
+	6650 10950 7650 10950
+Connection ~ 7650 10950
+Wire Wire Line
+	7650 10950 8650 10950
+Connection ~ 8650 10950
+Wire Wire Line
+	8650 10950 9650 10950
+Connection ~ 2050 8700
+Wire Wire Line
+	2050 8700 2050 9350
+Connection ~ 2050 9350
+Wire Wire Line
+	2050 9350 2050 10000
+Connection ~ 2050 10000
+Wire Wire Line
+	2050 10000 2050 10650
+Connection ~ 3050 8100
+Wire Wire Line
+	3050 8100 3050 8700
+Connection ~ 3050 8700
+Wire Wire Line
+	3050 8700 3050 9350
+Connection ~ 3050 9350
+Wire Wire Line
+	3050 9350 3050 10000
+Connection ~ 3050 10000
+Wire Wire Line
+	3050 10000 3050 10650
+Connection ~ 4050 8100
+Wire Wire Line
+	4050 8100 4050 8700
+Connection ~ 4050 8700
+Wire Wire Line
+	4050 8700 4050 9350
+Connection ~ 4050 9350
+Wire Wire Line
+	4050 9350 4050 10000
+Connection ~ 4050 10000
+Wire Wire Line
+	4050 10000 4050 10650
+Connection ~ 5050 8100
+Wire Wire Line
+	5050 8100 5050 8700
+Connection ~ 5050 8700
+Wire Wire Line
+	5050 8700 5050 9350
+Connection ~ 5050 9350
+Wire Wire Line
+	5050 9350 5050 10000
+Connection ~ 5050 10000
+Wire Wire Line
+	5050 10000 5050 10650
+Connection ~ 6050 8100
+Wire Wire Line
+	6050 8100 6050 8700
+Connection ~ 6050 8700
+Wire Wire Line
+	6050 8700 6050 9350
+Connection ~ 6050 9350
+Wire Wire Line
+	6050 9350 6050 10000
+Connection ~ 6050 10000
+Wire Wire Line
+	6050 10000 6050 10650
+Connection ~ 7050 8100
+Wire Wire Line
+	7050 8100 7050 8700
+Connection ~ 7050 8700
+Wire Wire Line
+	7050 8700 7050 9350
+Connection ~ 7050 9350
+Wire Wire Line
+	7050 9350 7050 10000
+Connection ~ 7050 10000
+Wire Wire Line
+	7050 10000 7050 10650
+Connection ~ 8050 8100
+Wire Wire Line
+	8050 8100 8050 8700
+Connection ~ 8050 8700
+Wire Wire Line
+	8050 8700 8050 9350
+Connection ~ 8050 9350
+Wire Wire Line
+	8050 9350 8050 10000
+Connection ~ 8050 10000
+Wire Wire Line
+	8050 10000 8050 10650
+Connection ~ 9050 8100
+Wire Wire Line
+	9050 8100 9050 8700
+Connection ~ 9050 8700
+Wire Wire Line
+	9050 8700 9050 9350
+Connection ~ 9050 9350
+Wire Wire Line
+	1850 10300 2650 10300
+Connection ~ 2650 10300
+Wire Wire Line
+	2650 10300 3650 10300
+Connection ~ 3650 10300
+Wire Wire Line
+	3650 10300 4650 10300
+Connection ~ 4650 10300
+Wire Wire Line
+	4650 10300 5650 10300
+Connection ~ 5650 10300
+Wire Wire Line
+	5650 10300 6650 10300
+Connection ~ 6650 10300
+Wire Wire Line
+	6650 10300 7650 10300
+Connection ~ 7650 10300
+Wire Wire Line
+	7650 10300 8650 10300
+Connection ~ 8650 10300
+Wire Wire Line
+	8650 10300 9650 10300
+Wire Wire Line
+	9050 10000 9050 10650
+Wire Wire Line
+	9050 9350 9050 10000
+Connection ~ 9050 10000
+Wire Wire Line
+	9650 9650 8650 9650
+Connection ~ 2650 9650
+Wire Wire Line
+	2650 9650 1850 9650
+Connection ~ 3650 9650
+Wire Wire Line
+	3650 9650 2650 9650
+Connection ~ 4650 9650
+Wire Wire Line
+	4650 9650 3650 9650
+Connection ~ 5650 9650
+Wire Wire Line
+	5650 9650 4650 9650
+Connection ~ 6650 9650
+Wire Wire Line
+	6650 9650 5650 9650
+Connection ~ 7650 9650
+Wire Wire Line
+	7650 9650 6650 9650
+Connection ~ 8650 9650
+Wire Wire Line
+	8650 9650 7650 9650
+Wire Wire Line
+	1850 9000 2650 9000
+Connection ~ 2650 9000
+Wire Wire Line
+	2650 9000 3650 9000
+Connection ~ 3650 9000
+Wire Wire Line
+	3650 9000 4650 9000
+Connection ~ 4650 9000
+Wire Wire Line
+	4650 9000 5650 9000
+Connection ~ 5650 9000
+Wire Wire Line
+	5650 9000 6650 9000
+Connection ~ 6650 9000
+Wire Wire Line
+	6650 9000 7650 9000
+Connection ~ 7650 9000
+Wire Wire Line
+	7650 9000 8650 9000
+Connection ~ 8650 9000
+Wire Wire Line
+	8650 9000 9650 9000
+Wire Wire Line
+	9650 8400 8650 8400
+Connection ~ 2650 8400
+Wire Wire Line
+	2650 8400 1850 8400
+Connection ~ 3650 8400
+Wire Wire Line
+	3650 8400 2650 8400
+Connection ~ 4650 8400
+Wire Wire Line
+	4650 8400 3650 8400
+Connection ~ 5650 8400
+Wire Wire Line
+	5650 8400 4650 8400
+Connection ~ 6650 8400
+Wire Wire Line
+	6650 8400 5650 8400
+Connection ~ 7650 8400
+Wire Wire Line
+	7650 8400 6650 8400
+Connection ~ 8650 8400
+Wire Wire Line
+	8650 8400 7650 8400
+Text GLabel 10150 2050 1    50   BiDi ~ 0
 GND
-Text GLabel 2100 3650 0    50   Input ~ 0
-OE
-Text GLabel 2100 3550 0    50   Input ~ 0
-RCK
-Text GLabel 2100 3350 0    50   Input ~ 0
-SCL
-Text GLabel 2100 3250 0    50   Input ~ 0
-SCK
-Text GLabel 2100 3050 0    50   Input ~ 0
-SER
-Text GLabel 6900 3800 2    50   Output ~ 0
+Text GLabel 10800 3050 1    50   BiDi ~ 0
+VCC
+NoConn ~ 10500 3200
+Wire Wire Line
+	10500 3250 10800 3250
+Wire Wire Line
+	10800 3250 10800 3050
+Wire Wire Line
+	10500 3300 10800 3300
+Wire Wire Line
+	10800 3300 10800 3500
+Wire Wire Line
+	10500 3350 11000 3350
+Text GLabel 11000 3350 2    50   BiDi ~ 0
+data
+Text GLabel 2600 2800 0    50   BiDi ~ 0
+data
+Text GLabel 2600 3400 0    50   BiDi ~ 0
+GND
+Text GLabel 2600 3300 0    50   BiDi ~ 0
+GND
+Text GLabel 11700 5750 2    50   BiDi ~ 0
+VCC
+Text GLabel 10800 3500 3    50   BiDi ~ 0
+GND
+Text GLabel 11350 4800 2    50   BiDi ~ 0
+GND
+NoConn ~ 2600 1500
+NoConn ~ 2600 1600
+NoConn ~ 2600 1700
+NoConn ~ 2600 1800
+NoConn ~ 2600 1900
+NoConn ~ 2600 2000
+NoConn ~ 2600 2100
+NoConn ~ 2600 2200
+NoConn ~ 2600 2300
+NoConn ~ 2600 2500
+NoConn ~ 2600 2600
+NoConn ~ 2600 2900
+NoConn ~ 2600 3000
+NoConn ~ 4350 3400
+NoConn ~ 4350 2700
+NoConn ~ 4350 2600
+NoConn ~ 4350 2400
+NoConn ~ 4350 2300
+NoConn ~ 4350 1700
+Text GLabel 7800 3300 2    50   Output ~ 0
 col07
-Text GLabel 6900 3600 2    50   Output ~ 0
+Text GLabel 7800 3100 2    50   Output ~ 0
 col05
-Text GLabel 6900 3700 2    50   Output ~ 0
+Text GLabel 7800 3200 2    50   Output ~ 0
 col06
-Text GLabel 6900 3400 2    50   Output ~ 0
+Text GLabel 7800 2900 2    50   Output ~ 0
 col03
-Text GLabel 6900 3500 2    50   Output ~ 0
+Text GLabel 7800 3000 2    50   Output ~ 0
 col04
-Text GLabel 6900 3100 2    50   Output ~ 0
+Text GLabel 6050 2400 0    50   Output ~ 0
 col00
-Text GLabel 6900 3200 2    50   Output ~ 0
+Text GLabel 7800 2500 2    50   Output ~ 0
 col01
-Text GLabel 6900 3300 2    50   Output ~ 0
+Text GLabel 7800 2800 2    50   Output ~ 0
 col02
+Text GLabel 7800 2200 2    50   Input ~ 0
+row04
+Text GLabel 7800 2100 2    50   Input ~ 0
+row03
+Text GLabel 7800 1800 2    50   Input ~ 0
+row00
+Text GLabel 7800 1900 2    50   Input ~ 0
+row01
+Text GLabel 7800 2000 2    50   Input ~ 0
+row02
+Text GLabel 6050 2700 0    50   Input ~ 0
+software_reset
+Text GLabel 7800 1600 2    50   BiDi ~ 0
+GND
+Text GLabel 6050 3100 0    50   Input ~ 0
+hardware_reset
+Text GLabel 6050 2800 0    50   BiDi ~ 0
+data
+Text GLabel 6050 3400 0    50   BiDi ~ 0
+GND
+Text GLabel 6050 3300 0    50   BiDi ~ 0
+GND
+NoConn ~ 6050 1500
+NoConn ~ 6050 1600
+NoConn ~ 6050 1700
+NoConn ~ 6050 1800
+NoConn ~ 6050 1900
+NoConn ~ 6050 2000
+NoConn ~ 6050 2100
+NoConn ~ 6050 2200
+NoConn ~ 6050 2300
+NoConn ~ 6050 2500
+NoConn ~ 6050 2600
+NoConn ~ 6050 2900
+NoConn ~ 6050 3000
+NoConn ~ 7800 3400
+NoConn ~ 7800 2700
+NoConn ~ 7800 2600
+NoConn ~ 7800 2400
+NoConn ~ 7800 2300
+NoConn ~ 7800 1700
+NoConn ~ 3450 4600
+NoConn ~ 3550 4600
+NoConn ~ 7000 4600
+Text GLabel 6050 3200 0    50   BiDi ~ 0
+VCC
+Text GLabel 2600 3200 0    50   BiDi ~ 0
+VCC
+NoConn ~ 6900 4600
 $Comp
 L power:VCC #PWR0103
 U 1 1 5EF9B627
@@ -239,94 +483,16 @@ F 3 "~" H 10950 1200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:74HC595 U5
-U 1 1 5E58DEE1
-P 6500 3500
-F 0 "U5" H 6500 4281 50  0000 C CNN
-F 1 "74HC595" H 6500 4190 50  0000 C CNN
-F 2 "kbd:SN74HC595_DIP-16_W7.62mm_Socket_2" H 6500 3500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6500 3500 50  0001 C CNN
-	1    6500 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC595 U3
-U 1 1 5E618672
-P 2500 3450
-F 0 "U3" H 2500 4231 50  0000 C CNN
-F 1 "74HC595" H 2500 4140 50  0000 C CNN
-F 2 "kbd:SN74HC595_DIP-16_W7.62mm_Socket_2" H 2500 3450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2500 3450 50  0001 C CNN
-	1    2500 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L fan-rescue:ProMicro-kbd U1
-U 1 1 5E5F0A8B
-P 2500 1850
-F 0 "U1" H 2500 2887 60  0000 C CNN
-F 1 "ProMicro" H 2500 2781 60  0000 C CNN
-F 2 "kbd:ProMicro_v3.6" H 2600 800 60  0001 C CNN
-F 3 "" H 2600 800 60  0000 C CNN
-	1    2500 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L fan-rescue:SW_PUSH-kbd SW41
-U 1 1 5E845F2A
-P 11050 4800
-F 0 "SW41" H 11050 5055 50  0000 C CNN
-F 1 "SW_PUSH" H 11050 4964 50  0000 C CNN
-F 2 "kbd:ResetSW" H 11050 4800 50  0001 C CNN
-F 3 "" H 11050 4800 50  0000 C CNN
-	1    11050 4800
-	1    0    0    -1  
-$EndComp
-$Comp
 L fan-rescue:SW_PUSH-kbd SW42
 U 1 1 5EA211DD
-P 11050 5450
-F 0 "SW42" H 11050 5705 50  0000 C CNN
-F 1 "SW_PUSH" H 11050 5614 50  0000 C CNN
-F 2 "kbd:ResetSW" H 11050 5450 50  0001 C CNN
-F 3 "" H 11050 5450 50  0000 C CNN
-	1    11050 5450
+P 11100 5750
+F 0 "SW42" H 11100 6005 50  0000 C CNN
+F 1 "SW_PUSH" H 11100 5914 50  0000 C CNN
+F 2 "kbd:ResetSW" H 11100 5750 50  0001 C CNN
+F 3 "" H 11100 5750 50  0000 C CNN
+	1    11100 5750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5E842CBB
-P 11350 4800
-F 0 "#PWR05" H 11350 4550 50  0001 C CNN
-F 1 "GND" H 11355 4627 50  0000 C CNN
-F 2 "" H 11350 4800 50  0001 C CNN
-F 3 "" H 11350 4800 50  0001 C CNN
-	1    11350 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 5EA211D7
-P 11350 5450
-F 0 "#PWR06" H 11350 5200 50  0001 C CNN
-F 1 "GND" H 11355 5277 50  0000 C CNN
-F 2 "" H 11350 5450 50  0001 C CNN
-F 3 "" H 11350 5450 50  0001 C CNN
-	1    11350 5450
-	1    0    0    -1  
-$EndComp
-Text GLabel 10750 4800 0    50   Output ~ 0
-software_reset
-Text GLabel 10750 5450 0    50   Output ~ 0
-hardware_reset
-NoConn ~ 6900 4000
-NoConn ~ 2900 3950
-NoConn ~ 3200 2200
-NoConn ~ 7200 2250
-Wire Wire Line
-	2050 7700 2050 8100
-Wire Wire Line
-	1850 10950 2650 10950
 $Comp
 L New_Library:SW_PUSH-kbd SW1
 U 1 1 5E711B6B
@@ -338,7 +504,6 @@ F 3 "" H 2350 8100 50  0000 C CNN
 	1    2350 8100
 	1    0    0    -1  
 $EndComp
-Connection ~ 2050 8100
 $Comp
 L New_Library:SW_PUSH-kbd SW2
 U 1 1 5E7155CB
@@ -383,20 +548,6 @@ F 3 "" H 2350 10650 50  0000 C CNN
 	1    2350 10650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 8100 2050 8700
-Wire Wire Line
-	3050 7700 3050 8100
-Wire Wire Line
-	4050 7700 4050 8100
-Wire Wire Line
-	5050 7700 5050 8100
-Wire Wire Line
-	6050 7700 6050 8100
-Wire Wire Line
-	7050 7700 7050 8100
-Wire Wire Line
-	8050 7700 8050 8100
 $Comp
 L New_Library:SW_PUSH-kbd SW6
 U 1 1 5E71B53C
@@ -771,145 +922,6 @@ F 3 "" H 9350 10650 50  0000 C CNN
 	1    9350 10650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9050 7700 9050 8100
-Connection ~ 2650 10950
-Wire Wire Line
-	2650 10950 3650 10950
-Connection ~ 3650 10950
-Wire Wire Line
-	3650 10950 4650 10950
-Connection ~ 4650 10950
-Wire Wire Line
-	4650 10950 5650 10950
-Connection ~ 5650 10950
-Wire Wire Line
-	5650 10950 6650 10950
-Connection ~ 6650 10950
-Wire Wire Line
-	6650 10950 7650 10950
-Connection ~ 7650 10950
-Wire Wire Line
-	7650 10950 8650 10950
-Connection ~ 8650 10950
-Wire Wire Line
-	8650 10950 9650 10950
-Connection ~ 2050 8700
-Wire Wire Line
-	2050 8700 2050 9350
-Connection ~ 2050 9350
-Wire Wire Line
-	2050 9350 2050 10000
-Connection ~ 2050 10000
-Wire Wire Line
-	2050 10000 2050 10650
-Connection ~ 3050 8100
-Wire Wire Line
-	3050 8100 3050 8700
-Connection ~ 3050 8700
-Wire Wire Line
-	3050 8700 3050 9350
-Connection ~ 3050 9350
-Wire Wire Line
-	3050 9350 3050 10000
-Connection ~ 3050 10000
-Wire Wire Line
-	3050 10000 3050 10650
-Connection ~ 4050 8100
-Wire Wire Line
-	4050 8100 4050 8700
-Connection ~ 4050 8700
-Wire Wire Line
-	4050 8700 4050 9350
-Connection ~ 4050 9350
-Wire Wire Line
-	4050 9350 4050 10000
-Connection ~ 4050 10000
-Wire Wire Line
-	4050 10000 4050 10650
-Connection ~ 5050 8100
-Wire Wire Line
-	5050 8100 5050 8700
-Connection ~ 5050 8700
-Wire Wire Line
-	5050 8700 5050 9350
-Connection ~ 5050 9350
-Wire Wire Line
-	5050 9350 5050 10000
-Connection ~ 5050 10000
-Wire Wire Line
-	5050 10000 5050 10650
-Connection ~ 6050 8100
-Wire Wire Line
-	6050 8100 6050 8700
-Connection ~ 6050 8700
-Wire Wire Line
-	6050 8700 6050 9350
-Connection ~ 6050 9350
-Wire Wire Line
-	6050 9350 6050 10000
-Connection ~ 6050 10000
-Wire Wire Line
-	6050 10000 6050 10650
-Connection ~ 7050 8100
-Wire Wire Line
-	7050 8100 7050 8700
-Connection ~ 7050 8700
-Wire Wire Line
-	7050 8700 7050 9350
-Connection ~ 7050 9350
-Wire Wire Line
-	7050 9350 7050 10000
-Connection ~ 7050 10000
-Wire Wire Line
-	7050 10000 7050 10650
-Connection ~ 8050 8100
-Wire Wire Line
-	8050 8100 8050 8700
-Connection ~ 8050 8700
-Wire Wire Line
-	8050 8700 8050 9350
-Connection ~ 8050 9350
-Wire Wire Line
-	8050 9350 8050 10000
-Connection ~ 8050 10000
-Wire Wire Line
-	8050 10000 8050 10650
-Connection ~ 9050 8100
-Wire Wire Line
-	9050 8100 9050 8700
-Connection ~ 9050 8700
-Wire Wire Line
-	9050 8700 9050 9350
-Connection ~ 9050 9350
-Wire Wire Line
-	1850 10300 2650 10300
-Connection ~ 2650 10300
-Wire Wire Line
-	2650 10300 3650 10300
-Connection ~ 3650 10300
-Wire Wire Line
-	3650 10300 4650 10300
-Connection ~ 4650 10300
-Wire Wire Line
-	4650 10300 5650 10300
-Connection ~ 5650 10300
-Wire Wire Line
-	5650 10300 6650 10300
-Connection ~ 6650 10300
-Wire Wire Line
-	6650 10300 7650 10300
-Connection ~ 7650 10300
-Wire Wire Line
-	7650 10300 8650 10300
-Connection ~ 8650 10300
-Wire Wire Line
-	8650 10300 9650 10300
-Wire Wire Line
-	9050 10000 9050 10650
-Wire Wire Line
-	9050 9350 9050 10000
-Connection ~ 9050 10000
 $Comp
 L New_Library:SW_PUSH-kbd SW39
 U 1 1 5E720998
@@ -921,82 +933,6 @@ F 3 "" H 9350 10000 50  0000 C CNN
 	1    9350 10000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9650 9650 8650 9650
-Connection ~ 2650 9650
-Wire Wire Line
-	2650 9650 1850 9650
-Connection ~ 3650 9650
-Wire Wire Line
-	3650 9650 2650 9650
-Connection ~ 4650 9650
-Wire Wire Line
-	4650 9650 3650 9650
-Connection ~ 5650 9650
-Wire Wire Line
-	5650 9650 4650 9650
-Connection ~ 6650 9650
-Wire Wire Line
-	6650 9650 5650 9650
-Connection ~ 7650 9650
-Wire Wire Line
-	7650 9650 6650 9650
-Connection ~ 8650 9650
-Wire Wire Line
-	8650 9650 7650 9650
-Wire Wire Line
-	1850 9000 2650 9000
-Connection ~ 2650 9000
-Wire Wire Line
-	2650 9000 3650 9000
-Connection ~ 3650 9000
-Wire Wire Line
-	3650 9000 4650 9000
-Connection ~ 4650 9000
-Wire Wire Line
-	4650 9000 5650 9000
-Connection ~ 5650 9000
-Wire Wire Line
-	5650 9000 6650 9000
-Connection ~ 6650 9000
-Wire Wire Line
-	6650 9000 7650 9000
-Connection ~ 7650 9000
-Wire Wire Line
-	7650 9000 8650 9000
-Connection ~ 8650 9000
-Wire Wire Line
-	8650 9000 9650 9000
-Wire Wire Line
-	9650 8400 8650 8400
-Connection ~ 2650 8400
-Wire Wire Line
-	2650 8400 1850 8400
-Connection ~ 3650 8400
-Wire Wire Line
-	3650 8400 2650 8400
-Connection ~ 4650 8400
-Wire Wire Line
-	4650 8400 3650 8400
-Connection ~ 5650 8400
-Wire Wire Line
-	5650 8400 4650 8400
-Connection ~ 6650 8400
-Wire Wire Line
-	6650 8400 5650 8400
-Connection ~ 7650 8400
-Wire Wire Line
-	7650 8400 6650 8400
-Connection ~ 8650 8400
-Wire Wire Line
-	8650 8400 7650 8400
-Text GLabel 10150 2050 1    50   BiDi ~ 0
-GND
-Text GLabel 10800 3500 3    50   BiDi ~ 0
-GND
-Text GLabel 10800 3050 1    50   BiDi ~ 0
-VCC
-NoConn ~ 10500 3200
 $Comp
 L kbd:MJ-4PP-9 J1
 U 1 1 5E87BED1
@@ -1008,37 +944,54 @@ F 3 "~" H 10575 3525 50  0001 C CNN
 	1    10300 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10500 3250 10800 3250
-Wire Wire Line
-	10800 3250 10800 3050
-Wire Wire Line
-	10500 3300 10800 3300
-Wire Wire Line
-	10800 3300 10800 3500
-Wire Wire Line
-	10500 3350 11000 3350
-Text GLabel 11000 3350 2    50   BiDi ~ 0
-data
-Text GLabel 5800 1250 0    50   BiDi ~ 0
-data
 $Comp
-L fan-rescue:ProMicro-kbd U2
-U 1 1 5F04E687
-P 6500 1900
-F 0 "U2" H 6500 2937 60  0000 C CNN
-F 1 "ProMicro" H 6500 2831 60  0000 C CNN
-F 2 "kbd:ProMicro_v3.6" H 6600 850 60  0001 C CNN
-F 3 "" H 6600 850 60  0000 C CNN
-	1    6500 1900
+L Device:R R1
+U 1 1 5E6A9188
+P 11550 5750
+F 0 "R1" H 11620 5796 50  0000 L CNN
+F 1 "R" H 11620 5705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm" V 11480 5750 50  0001 C CNN
+F 3 "~" H 11550 5750 50  0001 C CNN
+	1    11550 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L fan-rescue:SW_PUSH-kbd SW41
+U 1 1 5E845F2A
+P 11050 4800
+F 0 "SW41" H 11050 5055 50  0000 C CNN
+F 1 "SW_PUSH" H 11050 4964 50  0000 C CNN
+F 2 "kbd:ResetSW" H 11050 4800 50  0001 C CNN
+F 3 "" H 11050 4800 50  0000 C CNN
+	1    11050 4800
 	1    0    0    -1  
 $EndComp
-Text GLabel 1800 1200 0    50   BiDi ~ 0
-data
-Text GLabel 5800 1950 0    50   Output ~ 0
-SCK
-Text GLabel 5800 2050 0    50   Output ~ 0
-SCL
-Text GLabel 5800 1850 0    50   Output ~ 0
-SER
+$Comp
+L bluepill_breakouts:BluePill_STM32F103C U1
+U 1 1 5E745EFB
+P 3500 2850
+F 0 "U1" H 3475 4490 50  0000 C CNN
+F 1 "BluePill_STM32F103C" H 3475 4399 50  0000 C CNN
+F 2 "BluePill_breakouts:BluePill_STM32F103C" H 3550 1250 50  0001 C CNN
+F 3 "www.rogerclark.net" H 3500 1350 50  0001 C CNN
+	1    3500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L bluepill_breakouts:BluePill_STM32F103C U2
+U 1 1 5E74A9F6
+P 6950 2850
+F 0 "U2" H 6925 4490 50  0000 C CNN
+F 1 "BluePill_STM32F103C" H 6925 4399 50  0000 C CNN
+F 2 "BluePill_breakouts:BluePill_STM32F103C" H 7000 1250 50  0001 C CNN
+F 3 "www.rogerclark.net" H 6950 1350 50  0001 C CNN
+	1    6950 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 1500 2    50   BiDi ~ 0
+VCC
+Text GLabel 4350 1500 2    50   BiDi ~ 0
+VCC
+Text GLabel 2600 2400 0    50   Output ~ 0
+col00
 $EndSCHEMATC
