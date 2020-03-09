@@ -42,9 +42,63 @@ fan90に比べ、
 * pullup抵抗を入れる
 	* 10kΩが多いみたい。
 	* 1.5kΩの抵抗が余ってるからこれでもいいかな...
+	* wikipediaによるとバイポーラは1kΩ～4.7kΩ、CMOSでは220kΩ～1MΩらしい
+	* データシートにweak pull-up equivalent resistorの記述があるので、  
+	内蔵のプルアップ抵抗も使えるみたい。VINとVSSをつなぐと30～50kΩになるみたい。(43ページ)
 * RX は入力端子なので保護抵抗を入れる。
 	* これも1.5kΩでいいかな...
+	* データシートにたしかに10kΩ書いてあるので10kΩにした方がよさそう
+* 使ってないIOピンもVCCかGNDに10kΩ挟んでつなぐ
+	* どっちでもいいみたい
+	* これは外部でプルアップ/ダウンする必要があるみたい
+	> All unused pins must be held at a fixed voltage, by using the I/O output mode, an external pull-up or pull-down resistor
 * キーマトリクスに割り当てるピン配置を変える
+
+### STM32F103について
+
+調べて分かったことのメモ。間違っているかも。
+
+* 内部回路の電源が分かれている。
+	* VBAT はRTCとか用
+		* ボタン電池とかをつないでRTCを維持できるみたい。
+	* 1.8Vはコア回路用
+	* VDDはデジタル回路用
+	* VDDAはアナログ回路用
+
+* リセットは3種類ある
+	1. 電源を切る
+	1. NRSTをGNDにつなぐ
+	1. backup領域のみリセットする(そもそもbackup領域とは..)
+		* BDRSTレジスタでリセット
+		* VDDがONでリセット
+		* VBATがONでリセット
+
+* ピンについて
+	* PA9がTx、PA10がRx。
+	* PA15、PB3、PB4はJRAGデバッグに使われている(JTAGデバッグとは...)ので使おうとするとひと手間いる。
+	* PB2はジャンパにつながっている。
+	* PA11、PA12はUSB端子につながっている。
+	* generic bootloader向け
+		* bootloaderの種類はbluepillの実装に合わせる。generic_boot20_xxx.binのxxxはLEDのpinに合わせる。
+			* 合わせることでDFUモードの状態をLEDで表示できる。
+		* PA12はUSBリセットに使われているので、外部HWをつながない方がよい。
+		* PC13はDFUの状態をLEDで表示するのに使われているので、外部HWをつながない方がよい。
+		* PC14はNRSTに使われているので、外部HWをつながない方がよい。
+			* PC14を3.3VにプルアップするとDFU永続モードになる？
+			* DFU永続モードにできるなら有用なので専用回路を実装したい。
+			* PC14をhigh→リセット→書き込み→PC14を開放→リセットの流れっぽい。
+
+* 書き込みについて
+	* USB経由での書き込みはタイミングよくリセットボタンを押す必要があるらしい。
+		* 「Arduinoの書き込みを押した後0.5秒後くらいにボードのリセットを押す」らしい...
+
+## リンク集
+
+* 一番詳しかった  
+ＤＥＫＯのアヤシいお部屋。 - STM32F103 https://ht-deko.com/arduino/stm32f103c8t6.html
+
+* DFUモードの0.5秒の情報はここ  
+adfmac/bluepill-arduino.md https://gist.github.com/tadfmac/f1dffc8c674ddaa8bd2340a8ddec65be
 
 
 ## 以下古いバージョン
