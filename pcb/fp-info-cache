@@ -1,4 +1,4 @@
-17185277664988421
+17186911752969277
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -288,6 +288,13 @@ battery CR-3032 coin cell vertical
 2
 BluePill_breakouts
 BluePill_STM32F103C
+STM32F103C8 BluePill board
+
+0
+42
+42
+BluePill_breakouts
+BluePill_STM32F103C_reversed
 STM32F103C8 BluePill board
 
 0
@@ -75583,7 +75590,7 @@ R
 Resitance 3 pas
 R
 0
-2
+4
 2
 kbd
 ResetSW
@@ -76185,7 +76192,7 @@ R_1608_rev2
 SMT, 1608, 0603
 SMT, 1608, 0603
 0
-2
+4
 2
 keyboard_parts
 R_2012
