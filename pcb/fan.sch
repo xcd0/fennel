@@ -55,7 +55,7 @@ Text GLabel 4350 2600 2    50   BiDi ~ 0
 GND
 Text GLabel 2600 4100 0    50   Input ~ 0
 hardware_reset
-Text GLabel 12500 3950 0    50   Output ~ 0
+Text GLabel 12650 5950 0    50   Output ~ 0
 hardware_reset
 Wire Wire Line
 	2050 7700 2050 8100
@@ -307,10 +307,8 @@ Text GLabel 10350 4100 3    50   BiDi ~ 0
 GND
 NoConn ~ 3400 1950
 NoConn ~ 3500 1950
-NoConn ~ 7100 1950
 Text GLabel 2600 4200 0    50   BiDi ~ 0
 VCC
-NoConn ~ 7000 1950
 $Comp
 L power:VCC #PWR0103
 U 1 1 5EF9B627
@@ -831,24 +829,13 @@ $EndComp
 $Comp
 L fan-rescue:SW_PUSH-kbd SW41
 U 1 1 5E845F2A
-P 13050 3950
-F 0 "SW41" H 13050 4205 50  0000 C CNN
-F 1 "SW_PUSH" H 13050 4114 50  0000 C CNN
-F 2 "kbd:ResetSW" H 13050 3950 50  0001 C CNN
-F 3 "" H 13050 3950 50  0000 C CNN
-	1    13050 3950
+P 13200 5950
+F 0 "SW41" H 13200 6205 50  0000 C CNN
+F 1 "SW_PUSH" H 13200 6114 50  0000 C CNN
+F 2 "kbd:ResetSW" H 13200 5950 50  0001 C CNN
+F 3 "" H 13200 5950 50  0000 C CNN
+	1    13200 5950
 	1    0    0    -1  
-$EndComp
-$Comp
-L bluepill_breakouts:BluePill_STM32F103C U2
-U 1 1 5E74A9F6
-P 7050 3400
-F 0 "U2" H 7025 5040 50  0000 C CNN
-F 1 "BluePill_STM32F103C" H 7025 4949 50  0000 C CNN
-F 2 "BluePill_breakouts:BluePill_STM32F103C" H 7100 1800 50  0001 C CNN
-F 3 "www.rogerclark.net" H 7050 1900 50  0001 C CNN
-	1    7050 3400
-	-1   0    0    1   
 $EndComp
 Text GLabel 4350 2500 2    50   BiDi ~ 0
 VCC
@@ -858,14 +845,14 @@ U 1 1 5E745EFB
 P 3450 3400
 F 0 "U1" H 3425 5040 50  0000 C CNN
 F 1 "BluePill_STM32F103C" H 3425 4949 50  0000 C CNN
-F 2 "BluePill_breakouts:BluePill_STM32F103C" H 3500 1800 50  0001 C CNN
+F 2 "BluePill_breakouts:BluePill_STM32F103C_0.9_Double" H 3500 1800 50  0001 C CNN
 F 3 "www.rogerclark.net" H 3450 1900 50  0001 C CNN
 	1    3450 3400
 	-1   0    0    1   
 $EndComp
-Text GLabel 4350 3900 2    50   Input ~ 0
+Text GLabel 4350 3900 2    50   BiDi ~ 0
 Tx
-Text GLabel 4350 3800 2    50   Input ~ 0
+Text GLabel 4350 3800 2    50   BiDi ~ 0
 Rx
 NoConn ~ 2600 2600
 NoConn ~ 4350 4400
@@ -874,64 +861,27 @@ NoConn ~ 4350 3600
 NoConn ~ 4350 3400
 NoConn ~ 4350 3500
 NoConn ~ 4350 3300
-Text GLabel 13350 3950 2    50   BiDi ~ 0
+Text GLabel 13500 5950 2    50   BiDi ~ 0
 GND
 Wire Wire Line
-	12500 3950 12750 3950
-Text GLabel 12750 3400 1    50   BiDi ~ 0
-VCC
+	12650 5950 12900 5950
 Wire Wire Line
-	12750 3700 12750 3950
-Connection ~ 12750 3950
+	12900 5700 12900 5950
+Connection ~ 12900 5950
 NoConn ~ 2600 2800
 NoConn ~ 2600 2500
-Text GLabel 9800 5650 0    50   Input ~ 0
-Tx
-Text GLabel 9800 6400 0    50   Input ~ 0
-Rx
 Wire Wire Line
-	9800 5650 10050 5650
-Wire Wire Line
-	10050 6400 9800 6400
-Wire Wire Line
-	10050 5650 10050 5900
+	9800 5700 10050 5700
 Wire Wire Line
 	10600 5900 10350 5900
 Connection ~ 10050 5900
-Wire Wire Line
-	10050 5900 10050 6100
 NoConn ~ 4350 2700
-Text GLabel 7950 2600 2    50   BiDi ~ 0
-GND
-Text GLabel 6200 4400 0    50   BiDi ~ 0
-GND
-Text GLabel 6200 4300 0    50   BiDi ~ 0
-GND
-Text GLabel 6200 4200 0    50   BiDi ~ 0
-VCC
-Text GLabel 7950 2500 2    50   BiDi ~ 0
-VCC
-Text GLabel 7950 3900 2    50   Input ~ 0
-Tx
-Text GLabel 7950 3800 2    50   Input ~ 0
-Rx
-NoConn ~ 6200 2600
-NoConn ~ 7950 4400
-NoConn ~ 7950 3700
-NoConn ~ 7950 3600
-NoConn ~ 7950 3400
-NoConn ~ 7950 3500
-NoConn ~ 7950 3300
-NoConn ~ 6200 2800
-NoConn ~ 6200 2500
-NoConn ~ 7950 2700
 NoConn ~ 2600 2700
-NoConn ~ 6200 2700
 Wire Wire Line
 	10350 5700 10350 5900
 Wire Wire Line
 	10050 3950 10750 3950
-Text GLabel 10350 5400 1    50   BiDi ~ 0
+Text GLabel 10350 5300 1    50   BiDi ~ 0
 VCC
 Connection ~ 10350 5900
 Wire Wire Line
@@ -952,28 +902,6 @@ Wire Wire Line
 	4350 4200 4700 4200
 Wire Wire Line
 	4350 4300 4700 4300
-Wire Wire Line
-	7950 4000 8300 4000
-Wire Wire Line
-	7950 4100 8300 4100
-Wire Wire Line
-	7950 4200 8300 4200
-Wire Wire Line
-	7950 4300 8300 4300
-Wire Wire Line
-	6200 3900 5800 3900
-Wire Wire Line
-	6200 4000 5800 4000
-Text GLabel 7950 3200 2    50   Input ~ 0
-row04
-Text GLabel 7950 3100 2    50   Input ~ 0
-row03
-Text GLabel 7950 2800 2    50   Input ~ 0
-row00
-Text GLabel 7950 2900 2    50   Input ~ 0
-row01
-Text GLabel 7950 3000 2    50   Input ~ 0
-row02
 Text GLabel 2600 2900 0    50   Output ~ 0
 col07
 Text GLabel 2600 3800 0    50   Output ~ 0
@@ -990,42 +918,11 @@ Text GLabel 2600 3400 0    50   Output ~ 0
 col02
 Text GLabel 2600 3600 0    50   Output ~ 0
 col00
-Text GLabel 6200 3000 0    50   Output ~ 0
-col06
-Text GLabel 6200 2900 0    50   Output ~ 0
-col07
-Wire Wire Line
-	6200 3100 5800 3100
-Wire Wire Line
-	6200 3200 5800 3200
-Text GLabel 6200 3800 0    50   Output ~ 0
-col05
-Text GLabel 6200 3500 0    50   Output ~ 0
-col03
-Text GLabel 6200 3700 0    50   Output ~ 0
-col04
-Text GLabel 6200 3300 0    50   Output ~ 0
-col01
-Text GLabel 6200 3400 0    50   Output ~ 0
-col02
-Text GLabel 6200 3600 0    50   Output ~ 0
-col00
 $Comp
-L Device:R R9
-U 1 1 5EC7C591
-P 10050 6250
-F 0 "R9" H 10120 6296 50  0000 L CNN
-F 1 "10K" H 10120 6205 50  0000 L CNN
-F 2 "keyboard_parts:R_1608_rev2" V 9980 6250 50  0001 C CNN
-F 3 "~" H 10050 6250 50  0001 C CNN
-	1    10050 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R10
+L Device:R R1
 U 1 1 5EC895B1
 P 10350 5550
-F 0 "R10" H 10420 5596 50  0000 L CNN
+F 0 "R1" H 10420 5596 50  0000 L CNN
 F 1 "10K" H 10420 5505 50  0000 L CNN
 F 2 "keyboard_parts:R_1608_rev2" V 10280 5550 50  0001 C CNN
 F 3 "~" H 10350 5550 50  0001 C CNN
@@ -1033,14 +930,14 @@ F 3 "~" H 10350 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R11
+L Device:R R2
 U 1 1 5EC8FA28
-P 12750 3550
-F 0 "R11" H 12820 3596 50  0000 L CNN
-F 1 "10K" H 12820 3505 50  0000 L CNN
-F 2 "keyboard_parts:R_1608_rev2" V 12680 3550 50  0001 C CNN
-F 3 "~" H 12750 3550 50  0001 C CNN
-	1    12750 3550
+P 12900 5550
+F 0 "R2" H 12970 5596 50  0000 L CNN
+F 1 "10K" H 12970 5505 50  0000 L CNN
+F 2 "keyboard_parts:R_1608_rev2" V 12830 5550 50  0001 C CNN
+F 3 "~" H 12900 5550 50  0001 C CNN
+	1    12900 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1053,14 +950,24 @@ NoConn ~ 2200 3900
 NoConn ~ 2200 4000
 NoConn ~ 2200 3100
 NoConn ~ 2200 3200
-Text GLabel 6200 4100 0    50   Input ~ 0
-hardware_reset
-NoConn ~ 5800 3100
-NoConn ~ 5800 3200
-NoConn ~ 5800 3900
-NoConn ~ 5800 4000
-NoConn ~ 8300 4000
-NoConn ~ 8300 4100
-NoConn ~ 8300 4200
-NoConn ~ 8300 4300
+Wire Wire Line
+	10050 5900 10050 6100
+Wire Wire Line
+	10050 6100 9800 6100
+Text GLabel 9800 6100 0    50   BiDi ~ 0
+Rx
+Wire Wire Line
+	10050 5700 10050 5900
+Wire Wire Line
+	10350 5300 10350 5400
+Text GLabel 12900 5300 1    50   BiDi ~ 0
+VCC
+Wire Wire Line
+	12900 5400 12900 5300
+Text GLabel 9800 5700 0    50   BiDi ~ 0
+Tx
+Text Notes 9250 3900 0    50   ~ 0
+insert ->
+Text Notes 9400 4500 0    50   ~ 0
+A and B short circuit when using TRS plug
 $EndSCHEMATC
