@@ -887,10 +887,6 @@ Connection ~ 10350 5900
 Wire Wire Line
 	10350 5900 10050 5900
 Wire Wire Line
-	2600 3100 2200 3100
-Wire Wire Line
-	2600 3200 2200 3200
-Wire Wire Line
 	2600 3900 2200 3900
 Wire Wire Line
 	2600 4000 2200 4000
@@ -948,8 +944,6 @@ NoConn ~ 4700 4200
 NoConn ~ 4700 4300
 NoConn ~ 2200 3900
 NoConn ~ 2200 4000
-NoConn ~ 2200 3100
-NoConn ~ 2200 3200
 Wire Wire Line
 	10050 5900 10050 6100
 Wire Wire Line
@@ -970,4 +964,30 @@ Text Notes 9250 3900 0    50   ~ 0
 insert ->
 Text Notes 9400 4500 0    50   ~ 0
 A and B short circuit when using TRS plug
+Wire Wire Line
+	1850 3200 2600 3200
+Wire Wire Line
+	1850 3100 2600 3100
+$Comp
+L Connector:Conn_01x01_Female J2
+U 1 1 5E6E9A12
+P 1650 3100
+F 0 "J2" H 1542 2875 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1542 2966 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1650 3100 50  0001 C CNN
+F 3 "~" H 1650 3100 50  0001 C CNN
+	1    1650 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 5E6EAD64
+P 1650 3200
+F 0 "J3" H 1542 2975 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1542 3066 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1650 3200 50  0001 C CNN
+F 3 "~" H 1650 3200 50  0001 C CNN
+	1    1650 3200
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

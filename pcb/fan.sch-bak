@@ -307,10 +307,8 @@ Text GLabel 10350 4100 3    50   BiDi ~ 0
 GND
 NoConn ~ 3400 1950
 NoConn ~ 3500 1950
-NoConn ~ 7100 1950
 Text GLabel 2600 4200 0    50   BiDi ~ 0
 VCC
-NoConn ~ 7000 1950
 $Comp
 L power:VCC #PWR0103
 U 1 1 5EF9B627
@@ -839,17 +837,6 @@ F 3 "" H 13200 5950 50  0000 C CNN
 	1    13200 5950
 	1    0    0    -1  
 $EndComp
-$Comp
-L bluepill_breakouts:BluePill_STM32F103C U2
-U 1 1 5E74A9F6
-P 7050 3400
-F 0 "U2" H 7025 5040 50  0000 C CNN
-F 1 "BluePill_STM32F103C" H 7025 4949 50  0000 C CNN
-F 2 "BluePill_breakouts:BluePill_STM32F103C" H 7100 1800 50  0001 C CNN
-F 3 "www.rogerclark.net" H 7050 1900 50  0001 C CNN
-	1    7050 3400
-	-1   0    0    1   
-$EndComp
 Text GLabel 4350 2500 2    50   BiDi ~ 0
 VCC
 $Comp
@@ -858,7 +845,7 @@ U 1 1 5E745EFB
 P 3450 3400
 F 0 "U1" H 3425 5040 50  0000 C CNN
 F 1 "BluePill_STM32F103C" H 3425 4949 50  0000 C CNN
-F 2 "BluePill_breakouts:BluePill_STM32F103C" H 3500 1800 50  0001 C CNN
+F 2 "BluePill_breakouts:BluePill_STM32F103C_0.9_Double" H 3500 1800 50  0001 C CNN
 F 3 "www.rogerclark.net" H 3450 1900 50  0001 C CNN
 	1    3450 3400
 	-1   0    0    1   
@@ -889,32 +876,7 @@ Wire Wire Line
 	10600 5900 10350 5900
 Connection ~ 10050 5900
 NoConn ~ 4350 2700
-Text GLabel 7950 2600 2    50   BiDi ~ 0
-GND
-Text GLabel 6200 4400 0    50   BiDi ~ 0
-GND
-Text GLabel 6200 4300 0    50   BiDi ~ 0
-GND
-Text GLabel 6200 4200 0    50   BiDi ~ 0
-VCC
-Text GLabel 7950 2500 2    50   BiDi ~ 0
-VCC
-Text GLabel 7950 3900 2    50   BiDi ~ 0
-Tx
-Text GLabel 7950 3800 2    50   BiDi ~ 0
-Rx
-NoConn ~ 6200 2600
-NoConn ~ 7950 4400
-NoConn ~ 7950 3700
-NoConn ~ 7950 3600
-NoConn ~ 7950 3400
-NoConn ~ 7950 3500
-NoConn ~ 7950 3300
-NoConn ~ 6200 2800
-NoConn ~ 6200 2500
-NoConn ~ 7950 2700
 NoConn ~ 2600 2700
-NoConn ~ 6200 2700
 Wire Wire Line
 	10350 5700 10350 5900
 Wire Wire Line
@@ -924,10 +886,6 @@ VCC
 Connection ~ 10350 5900
 Wire Wire Line
 	10350 5900 10050 5900
-Wire Wire Line
-	2600 3100 2200 3100
-Wire Wire Line
-	2600 3200 2200 3200
 Wire Wire Line
 	2600 3900 2200 3900
 Wire Wire Line
@@ -940,28 +898,6 @@ Wire Wire Line
 	4350 4200 4700 4200
 Wire Wire Line
 	4350 4300 4700 4300
-Wire Wire Line
-	7950 4000 8300 4000
-Wire Wire Line
-	7950 4100 8300 4100
-Wire Wire Line
-	7950 4200 8300 4200
-Wire Wire Line
-	7950 4300 8300 4300
-Wire Wire Line
-	6200 3900 5800 3900
-Wire Wire Line
-	6200 4000 5800 4000
-Text GLabel 7950 3200 2    50   Input ~ 0
-row04
-Text GLabel 7950 3100 2    50   Input ~ 0
-row03
-Text GLabel 7950 2800 2    50   Input ~ 0
-row00
-Text GLabel 7950 2900 2    50   Input ~ 0
-row01
-Text GLabel 7950 3000 2    50   Input ~ 0
-row02
 Text GLabel 2600 2900 0    50   Output ~ 0
 col07
 Text GLabel 2600 3800 0    50   Output ~ 0
@@ -977,26 +913,6 @@ col01
 Text GLabel 2600 3400 0    50   Output ~ 0
 col02
 Text GLabel 2600 3600 0    50   Output ~ 0
-col00
-Text GLabel 6200 3000 0    50   Output ~ 0
-col06
-Text GLabel 6200 2900 0    50   Output ~ 0
-col07
-Wire Wire Line
-	6200 3100 5800 3100
-Wire Wire Line
-	6200 3200 5800 3200
-Text GLabel 6200 3800 0    50   Output ~ 0
-col05
-Text GLabel 6200 3500 0    50   Output ~ 0
-col03
-Text GLabel 6200 3700 0    50   Output ~ 0
-col04
-Text GLabel 6200 3300 0    50   Output ~ 0
-col01
-Text GLabel 6200 3400 0    50   Output ~ 0
-col02
-Text GLabel 6200 3600 0    50   Output ~ 0
 col00
 $Comp
 L Device:R R1
@@ -1028,18 +944,6 @@ NoConn ~ 4700 4200
 NoConn ~ 4700 4300
 NoConn ~ 2200 3900
 NoConn ~ 2200 4000
-NoConn ~ 2200 3100
-NoConn ~ 2200 3200
-Text GLabel 6200 4100 0    50   Input ~ 0
-hardware_reset
-NoConn ~ 5800 3100
-NoConn ~ 5800 3200
-NoConn ~ 5800 3900
-NoConn ~ 5800 4000
-NoConn ~ 8300 4000
-NoConn ~ 8300 4100
-NoConn ~ 8300 4200
-NoConn ~ 8300 4300
 Wire Wire Line
 	10050 5900 10050 6100
 Wire Wire Line
@@ -1056,4 +960,34 @@ Wire Wire Line
 	12900 5400 12900 5300
 Text GLabel 9800 5700 0    50   BiDi ~ 0
 Tx
+Text Notes 9250 3900 0    50   ~ 0
+insert ->
+Text Notes 9400 4500 0    50   ~ 0
+A and B short circuit when using TRS plug
+Wire Wire Line
+	1850 3200 2600 3200
+Wire Wire Line
+	1850 3100 2600 3100
+$Comp
+L Connector:Conn_01x01_Female J2
+U 1 1 5E6E9A12
+P 1650 3100
+F 0 "J2" H 1542 2875 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1542 2966 50  0000 C CNN
+F 2 "" H 1650 3100 50  0001 C CNN
+F 3 "~" H 1650 3100 50  0001 C CNN
+	1    1650 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 5E6EAD64
+P 1650 3200
+F 0 "J3" H 1542 2975 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1542 3066 50  0000 C CNN
+F 2 "" H 1650 3200 50  0001 C CNN
+F 3 "~" H 1650 3200 50  0001 C CNN
+	1    1650 3200
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
