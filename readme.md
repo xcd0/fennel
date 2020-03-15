@@ -54,6 +54,13 @@ fan90に比べ、
 	> All unused pins must be held at a fixed voltage, by using the I/O output mode, an external pull-up or pull-down resistor
 * キーマトリクスに割り当てるピン配置を変える
 
+* 異種面付けをしてみた
+	![](./img/fan74_composite.png)
+	* お値段 5枚製造
+		* 異種面付けで基板製造の費用$93
+		* 異種面付けしないで３枚頼んだ時の基板製造費$33
+	* かすかに安いが、後加工が必要になるので、その点で普通に注文したほうよい。
+
 ### STM32F103について
 
 調べて分かったことのメモ。間違っているかも。
