@@ -18,18 +18,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 #include "config_common.h"
+//#include "mcuconf.h"
+#include "hal.h"
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID 0xFEED
 #define PRODUCT_ID 0x0000
 #define DEVICE_VER 0x0001
 #define MANUFACTURER xcd0
-#define PRODUCT fan90
+#define PRODUCT fennel
 #define DESCRIPTION A custom keyboard
 
 /* key matrix size */
-#define MATRIX_ROWS 6
-#define MATRIX_COLS 15
+#define MATRIX_ROWS 5
+#define MATRIX_COLS 16 // 片手で8 両手で16
 
 /*
  * Keyboard Matrix Assignments
@@ -42,13 +44,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
-#define MATRIX_ROW_PINS { F6, F7, B1, B3, B2, B6 }
-#define MATRIX_COL_PINS { C6, D7, E6, B4, B5 }
-#define UNUSED_PINS { D2, D3, D1, D0, F4, F5 }
+#define MATRIX_ROW_PINS { B9, B8, B7, B6, B5  }
+#define MATRIX_COL_PINS { A7, A4, A5, A6, B0, B1, A1, A0 }
+#define UNUSED_PINS { B10, B11, B13, B14, B15, A8 }
 
 /* COL2ROW, ROW2COL*/
-//#define DIODE_DIRECTION COL2ROW
-#define DIODE_DIRECTION CUSTOM_MATRIX
+#define DIODE_DIRECTION COL2ROW
+//#define DIODE_DIRECTION CUSTOM_MATRIX
 
 /*
  * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.

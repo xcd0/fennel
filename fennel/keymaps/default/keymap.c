@@ -53,25 +53,41 @@
 
 // Defines names for use in layer keycodes and the keymap
 enum layer_names {
-    _QWERTY
+    _QWERTY,
+    _SYMBOL,
+    _MOUSE
 };
 
 // Defines the keycodes used by our macros in process_record_user
 enum custom_keycodes {
-    QMKBEST = SAFE_RANGE,
-    QMKURL
+	QWERTY = SAFE_RANGE,
+	MOUSE,
+	SYMBOL
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 //    col 00   col 01   col 02   col 03   col 04   col 05   col 06   col 07   col 08   col 09   col 10   col 11   col 12   col 13   col 14
   [_QWERTY] = LAYOUT( \
-      JP_PGUP, _______, JP_F1,   JP_F2,   JP_F3,   JP_F4,   JP_F5,   JP_F8,   JP_PSCR, JP_SLCK, JP_F11,  JP_F12,  _______, _______, JP_GRV, \
-      JP_PGDN, JP_ESC,  JP_1,    JP_2,    JP_3,    JP_4,    JP_5,    JP_F7,   JP_PAUS, JP_F10,  JP_0,    JP_MINS, JP_DEL,  _______, JP_QUOT, \
-      JP_HOME, JP_TAB,  JP_Q,    JP_W,    JP_E,    JP_R,    JP_T,    JP_F6,   JP_F9,   JP_9,    JP_O,    JP_P,    JP_BSPC, JP_ASTR, JP_EQL, \
-      JP_END,  JP_LSFT, JP_A,    JP_S,    JP_D,    JP_F,    JP_G,    JP_6,    JP_8,    JP_I,    JP_K,    JP_L,    JP_SCLN, JP_COMM, JP_DOT,  \
-      JP_INS,  JP_LCTL, JP_Z,    JP_X,    JP_C,    JP_V,    JP_B,    JP_7,    JP_U,    JP_J,    JP_M,    JP_MHEN, JP_HENK, JP_LPRN, JP_RPRN, \
-      _______, JP_LALT, JP_LGUI, _______, _______, JP_SLSH, JP_BSLS, JP_Y,    JP_H,    JP_N,    _______, JP_SPC,  JP_RSFT, JP_LCTL, JP_ENT  \
+      JP_HOME, JP_END,  JP_1,    JP_2,    JP_3,    JP_4,    JP_5,    JP_LABK, JP_RABK, JP_6,    JP_7,    JP_8,    JP_9,    JP_0,    JP_TILD, JP_CIRC, \
+      JP_LGUI, JP_DEL,  JP_ESC,  JP_W,    JP_E,    JP_R,    JP_T,    JP_LCBR, JP_RCBR, JP_Y,    JP_U,    JP_I,    JP_O,    JP_MINS, JP_EQL, JP_JP_UNDS, \
+      JP_LALT, JP_TAB,  JP_Q,    JP_S,    JP_D,    JP_F,    JP_G,    JP_LPRN, JP_RPRN, JP_H,    JP_J,    JP_K,    JP_L,    JP_P,    JP_AT,   JP_BSLS, \
+      JP_INS,  JP_Z,    JP_A,    JP_X,    JP_C,    JP_V,    JP_B,    JP_LBRC, JP_RBRC, JP_N,    JP_M,    JP_COMM, JP_DOT,  JP_SCLN, JP_COLN, JP_SLSH, \
+      JP_PAUS, JP_SLCK, JP_PSCR, MOUSE,   JP_MHEN, JP_LSFT, JP_SPC,  JP_LCTL, JP_ENT,  JP_SPC,  JP_BSPC, JP_HENK, SYMBOL,  SETTING, JP_PGDN, JP_PGUP \
+      ),
+  [_SYMBOL] = LAYOUT( \
+      JP_HOME, JP_END,  JP_1,    JP_2,    JP_3,    JP_4,    JP_5,    JP_LABK, JP_RABK, JP_6,    JP_7,    JP_8,    JP_9,    JP_0,    JP_TILD, JP_CIRC, \
+      JP_LGUI, JP_DEL,  JP_ESC,  _______, _______, _______, _______, JP_LCBR, JP_RCBR, KC_DQUO, KC_QUOT, KC_GRV,  _______, JP_MINS, JP_EQL,  JP_UNDS, \
+      JP_LALT, JP_TAB,  KC_PIPE, KC_AMPR, KC_HASH, KC_DLR,  KC_PERC, JP_LPRN, JP_RPRN, KC_PLUS, KC_ASTR, KC_MINS, _______, _______,    JP_AT,   JP_BSLS, \
+      JP_INS,  JP_Z,    _______, _______, _______, _______, _______, JP_LBRC, JP_RBRC, KC_QUES, KC_EXLM, JP_COMM, JP_DOT,  JP_SCLN, JP_COLN, JP_SLSH, \
+      JP_PAUS, JP_SLCK, JP_PSCR, _______, JP_MHEN, JP_LSFT, JP_SPC,  JP_LCTL, JP_ENT,  JP_SPC,  JP_BSPC, JP_HENK, SYMBOL,  SETTING, JP_PGDN, JP_PGUP \
+      ),
+  [_MOUSE] = LAYOUT( \
+      _______, _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   _______, _______, KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12, \
+      JP_LGUI, _______, JP_ESC,  _______, _______, _______, _______, _______, _______, _______, KC_BTN1, KC_BTN3, KC_BTN2, KC_WH_U, JP_EQL,  JP_UNDS, \
+      JP_LALT, JP_TAB,  _______, _______, _______, _______, _______, _______, _______, KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, KC_WH_D, JP_AT,   JP_BSLS, \
+      AG_NORM, AG_SWAP, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, \
+      _______, _______, _______, _______, JP_MHEN, JP_LSFT, JP_SPC,  JP_LCTL, JP_ENT,  JP_SPC,  JP_BSPC, JP_HENK, SYMBOL,  SETTING, JP_PGDN, JP_PGUP \
       )
 };
 

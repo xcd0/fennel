@@ -1,1 +1,1 @@
-# The default keymap for fan90
+# The default keymap for fennel
