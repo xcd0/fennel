@@ -121,8 +121,9 @@ adfmac/bluepill-arduino.md https://gist.github.com/tadfmac/f1dffc8c674ddaa8bd234
 
 [Ortho 75](https://github.com/qmk/qmk_firmware/tree/master/keyboards/cannonkeys/ortho75)を参考にする。
 
+とりあえずこぴっていじる
 
-
+<!--{{{-->
 
 ## 以下古いバージョン
 
@@ -265,4 +266,4 @@ https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/hardware-ove
 ![](https://make.kosakalab.com/.blog/wp-content/uploads/2016/07/Pro_Micro.png)
 
 </details>
-
+<!--}}}-->
