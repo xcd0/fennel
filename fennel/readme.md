@@ -1,4 +1,4 @@
-# fan90
+# fennel
 
 * Pro Micro
 

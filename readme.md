@@ -107,6 +107,22 @@ fan90に比べ、
 * DFUモードの0.5秒の情報はここ  
 adfmac/bluepill-arduino.md https://gist.github.com/tadfmac/f1dffc8c674ddaa8bd2340a8ddec65be
 
+## ケース
+
+基板と一緒に頼んだ。
+
+## 回路間違っていた。
+頼んだタイミングが残業で疲れた深夜だったため、いろいろミスった状態で発注した\_(:3 」∠ )\_
+労働は体に良くない。
+
+とりあえずゴリゴリ基盤を削って空中配線してごまかした。
+
+## ファームウェア
+
+[Ortho 75](https://github.com/qmk/qmk_firmware/tree/master/keyboards/cannonkeys/ortho75)を参考にする。
+
+
+
 
 ## 以下古いバージョン
 
