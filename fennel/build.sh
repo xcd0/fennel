@@ -1,7 +1,10 @@
+#!/bin/bash
 
-rm -rf ~/work/qmk_firmware/keyboards/fennel
-cp -aurf ~/work/fennel/fennel ~/work/qmk_firmware/keyboards
-cd ~/work/qmk_firmware
+DIR=~/work/fennel
+QMKDIR=~/work/fennel/arm_split/qmk_firmware
+
+cp -aurf ${DIR}/fennel ${QMKDIR}/keyboards/fennel
+cd ${QMKDIR}
 
 make fennel:default:dfu-util
 
